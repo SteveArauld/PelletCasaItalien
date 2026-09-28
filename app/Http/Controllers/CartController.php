@@ -35,7 +35,7 @@ class CartController extends Controller
             ]);
         }
 
-        return back()->with('success', "„{$product->name}“ wurde zum Warenkorb hinzugefügt.");
+        return back()->with('success', "«{$product->name}» è stato aggiunto al carrello.");
     }
 
     public function update(Request $request, Product $product): RedirectResponse|JsonResponse

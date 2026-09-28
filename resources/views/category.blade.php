@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', $category->name.' - Sr-pellethaus')
+@section('title', $category->name.' - PelletCasa')
 @section('body_class', 'archive tax-product_cat wp-theme-motta wp-child-theme-motta-child theme-motta woocommerce woocommerce-page woocommerce-no-js product-card-layout-4 product-card-mobile-show-atc hfeed sidebar-content motta-shape--round motta-navigation-bar-show motta-catalog-page catalog-view-4 elementor-default elementor-kit-8 motta-blog-page')
 
 @section('content')
 
 <div id="page-header" class="page-header page-header--products page-header--standard page-header--text-custom">
 	<div class="container clearfix">
-		<nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Start</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>{{ $category->name }}</nav>
+		<nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Home</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>{{ $category->name }}</nav>
 		<div class="page-header__content">
 			{{-- Hero image is locked in catalog.css (slider-zermatt-pellets-2.jpg) for all categories. --}}
 			<div class="page-header__image" aria-hidden="true"></div>
@@ -27,18 +27,18 @@
 					<div class="mobile-catalog-toolbar">
 						<button type="button" class="mobile-catalog-toolbar__filter-button motta-button--ghost motta-button--color-black hidden-sm hidden-md hidden-lg" data-toggle="off-canvas" data-target="mobile-filter-sidebar-panel">
 							<span class="motta-svg-icon motta-svg-icon--filter"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>
-							Filter
+							Filtra
 						</button>
 					</div>
-					<p class="motta-result-count" data-catalog-count>{{ $products->total() }} Results</p>
+					<p class="motta-result-count" data-catalog-count>{{ $products->total() }} risultati</p>
 					<div class="catalog-toolbar__toolbar">
-						<span class="woocommerce-ordering__label">Sort by:</span>
+						<span class="woocommerce-ordering__label">Ordina per:</span>
 						<form class="woocommerce-ordering" method="get" action="{{ route('category', $category->slug) }}" data-catalog-sort>
-							<select name="orderby" class="orderby" aria-label="Shop-Reihenfolge">
-								<option value="menu_order" {{ request('orderby', 'menu_order') === 'menu_order' ? 'selected' : '' }}>Default</option>
-								<option value="date" {{ request('orderby') === 'date' ? 'selected' : '' }}>Latest</option>
-								<option value="price" {{ request('orderby') === 'price' ? 'selected' : '' }}>Price: low to high</option>
-								<option value="price-desc" {{ request('orderby') === 'price-desc' ? 'selected' : '' }}>Price: high to low</option>
+							<select name="orderby" class="orderby" aria-label="Ordine del negozio">
+								<option value="menu_order" {{ request('orderby', 'menu_order') === 'menu_order' ? 'selected' : '' }}>Predefinito</option>
+								<option value="date" {{ request('orderby') === 'date' ? 'selected' : '' }}>Più recenti</option>
+								<option value="price" {{ request('orderby') === 'price' ? 'selected' : '' }}>Prezzo: dal più basso</option>
+								<option value="price-desc" {{ request('orderby') === 'price-desc' ? 'selected' : '' }}>Prezzo: dal più alto</option>
 							</select>
 						</form>
 						<div id="motta-toolbar-view" class="motta-toolbar-view">
@@ -65,13 +65,13 @@
 		<aside id="mobile-filter-sidebar-panel" class="widget-area primary-sidebar catalog-sidebar">
 			<div class="sidebar__backdrop"></div>
 			<div class="sidebar__container">
-				<span class="motta-svg-icon motta-svg-icon--close panel__button-close" role="button" tabindex="0" aria-label="Schließen"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
-				<div class="sidebar__header">Filter &amp; Sort</div>
+				<span class="motta-svg-icon motta-svg-icon--close panel__button-close" role="button" tabindex="0" aria-label="Chiudi"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
+				<div class="sidebar__header">Filtra e ordina</div>
 				<div class="sidebar__content">
 					<section class="widget products-filter-widget woocommerce">
 						<h4 class="widget-title">
 							<span class="motta-svg-icon motta-svg-icon--filter"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>
-							Filter
+							Filtra
 						</h4>
 
 						<form id="catalog-filters" action="{{ route('category', $category->slug) }}" method="get" class="has-collapse ajax-filter" data-catalog-filters>
@@ -89,11 +89,11 @@
 
 							<div class="products-filter__filters filters">
 								<div class="products-filter__filter filter product_cat list">
-									<span class="products-filter__filter-name filter-name">Kategorien</span>
+									<span class="products-filter__filter-name filter-name">Categorie</span>
 									<div class="products-filter__filter-control filter-control">
 										<ul class="products-filter__options products-filter--list filter-list">
 											<li class="products-filter__option filter-list-item">
-												<a href="{{ route('shop', $filterQs) }}"><span class="products-filter__option-name name">All Categories</span><span class="products-filter__count counter">{{ $categories->sum('products_count') }}</span></a>
+												<a href="{{ route('shop', $filterQs) }}"><span class="products-filter__option-name name">Tutte le categorie</span><span class="products-filter__count counter">{{ $categories->sum('products_count') }}</span></a>
 											</li>
 											@foreach($categories as $cat)
 											<li class="products-filter__option filter-list-item {{ $cat->slug === $category->slug ? 'selected active' : '' }}">
@@ -105,7 +105,7 @@
 								</div>
 
 								<div class="products-filter__filter filter price ranges">
-									<span class="products-filter__filter-name filter-name">Preis</span>
+									<span class="products-filter__filter-name filter-name">Prezzo</span>
 									<div class="products-filter__filter-control filter-control">
 										@php($selectedRanges = (array) request('price_range', []))
 										<ul class="products-filter__options products-filter--ranges products-filter--checkboxes filter-ranges">
@@ -121,7 +121,7 @@
 											<input type="number" name="min_price" value="{{ request('min_price') }}" placeholder="Min" class="motta-input--base" inputmode="numeric">
 											<span class="line"></span>
 											<input type="number" name="max_price" value="{{ request('max_price') }}" placeholder="Max" class="motta-input--base" inputmode="numeric">
-											<button type="submit" class="button filter-button motta-button motta-button--bg-color-black motta-button-range">Apply</button>
+											<button type="submit" class="button filter-button motta-button motta-button--bg-color-black motta-button-range">Applica</button>
 										</div>
 									</div>
 								</div>

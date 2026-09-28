@@ -19,9 +19,9 @@ class ShopController extends Controller
             ->whereHas('category', fn ($q) => $q->where('slug', $slug))
             ->latest()->take(8)->get();
 
-        $pelletofenProducts = $byCategory('pelletofen');
-        $holzpelletsProducts = $byCategory('holzpellets');
-        $brennholzProducts = $byCategory('brennholz');
+        $pelletofenProducts = $byCategory('stufe-a-pellet');
+        $holzpelletsProducts = $byCategory('pellet-di-legno');
+        $brennholzProducts = $byCategory('legna-da-ardere');
 
         return view('home', compact(
             'categories', 'featured',
@@ -86,8 +86,8 @@ class ShopController extends Controller
         return response()->json([
             'success' => true,
             'count_html' => $total > 0
-                ? $total.' Results'
-                : '0 Results',
+                ? $total.' risultati'
+                : '0 risultati',
             'products_html' => view('partials.catalog-products', compact('products'))->render(),
             'activated_html' => view('partials.catalog-activated-filters', [
                 'category' => $category,

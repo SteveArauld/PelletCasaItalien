@@ -62,10 +62,10 @@ class ContactFormMailTest extends TestCase
             'message' => 'Können Sie mich beraten?',
         ]);
 
-        $mailable->assertHasSubject('Wir haben Ihre Nachricht erhalten – Sr-pellethaus');
-        $mailable->assertSeeInHtml('Vielen Dank, Anna!');
+        $mailable->assertHasSubject('Abbiamo ricevuto il tuo messaggio – PelletCasa');
+        $mailable->assertSeeInHtml('Grazie, Anna!');
         $mailable->assertSeeInHtml('Können Sie mich beraten?');
-        $mailable->assertSeeInText('Sr-pellethaus');
+        $mailable->assertSeeInText('PelletCasa');
     }
 
     public function test_contact_admin_mail_contains_message_details(): void
@@ -77,8 +77,8 @@ class ContactFormMailTest extends TestCase
             'message' => 'Können Sie mich beraten?',
         ]);
 
-        $mailable->assertHasSubject('[Kontakt] Beratung');
-        $mailable->assertSeeInHtml('Neue Kontaktanfrage');
+        $mailable->assertHasSubject('[Contatto] Beratung');
+        $mailable->assertSeeInHtml('Nuova richiesta di contatto');
         $mailable->assertSeeInHtml('anna@example.com');
         $mailable->assertSeeInHtml('Können Sie mich beraten?');
     }

@@ -22,10 +22,10 @@ class ContactAdminNotification extends Mailable
     {
         $subject = filled($this->contact['subject'] ?? null)
             ? (string) $this->contact['subject']
-            : 'Neue Kontaktanfrage';
+            : 'Nuova richiesta di contatto';
 
         return new Envelope(
-            subject: '[Kontakt] '.$subject,
+            subject: '[Contatto] '.$subject,
             replyTo: [
                 new Address($this->contact['email'], $this->contact['name']),
             ],

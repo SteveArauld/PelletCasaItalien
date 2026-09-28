@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Warenkorb - Sr-pellethaus')
+@section('title', 'Carrello - PelletCasa')
 @section('body_class', 'page-template-default page theme-motta woocommerce woocommerce-cart woocommerce-page no-sidebar elementor-default elementor-kit-8')
 
 @section('content')
 <div id="page-header" class="page-header">
 	<div class="container clearfix">
 		<div class="page-header__content">
-			<h1 class="page-header__title">Warenkorb</h1>
+			<h1 class="page-header__title">Carrello</h1>
 		</div>
 	</div>
 </div>
@@ -16,8 +16,8 @@
 	<div class="container clearfix">
 
 		@if (empty($cart))
-			<p class="cart-empty woocommerce-info">Dein Warenkorb ist momentan leer.</p>
-			<p><a class="button wc-backward" href="{{ route('shop') }}">Zurück zum Shop</a></p>
+			<p class="cart-empty woocommerce-info">Il tuo carrello è attualmente vuoto.</p>
+			<p><a class="button wc-backward" href="{{ route('shop') }}">Torna al negozio</a></p>
 		@else
 			<form class="woocommerce-cart-form">
 			<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
@@ -25,10 +25,10 @@
 					<tr>
 						<th class="product-remove">&nbsp;</th>
 						<th class="product-thumbnail">&nbsp;</th>
-						<th class="product-name">Produkt</th>
-						<th class="product-price">Preis</th>
-						<th class="product-quantity">Menge</th>
-						<th class="product-subtotal">Zwischensumme</th>
+						<th class="product-name">Prodotto</th>
+						<th class="product-price">Prezzo</th>
+						<th class="product-quantity">Quantità</th>
+						<th class="product-subtotal">Subtotale</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -40,21 +40,21 @@
 						@php($total += $lineTotal)
 						<tr class="woocommerce-cart-form__cart-item cart_item">
 							<td class="product-remove">
-								<a href="#" class="remove ajax-remove-from-cart" data-url="{{ route('cart.remove', $product) }}" aria-label="Entfernen">&times;</a>
+								<a href="#" class="remove ajax-remove-from-cart" data-url="{{ route('cart.remove', $product) }}" aria-label="Rimuovi">&times;</a>
 							</td>
 							<td class="product-thumbnail">
 								<a href="{{ route('product', $product->slug) }}">
 									<img src="{{ $product->imageUrl() }}" alt="{{ $product->name }}" width="64" height="64">
 								</a>
 							</td>
-							<td class="product-name" data-title="Produkt">
+							<td class="product-name" data-title="Prodotto">
 								<a href="{{ route('product', $product->slug) }}">{{ $product->name }}</a>
 							</td>
-							<td class="product-price" data-title="Preis">
+							<td class="product-price" data-title="Prezzo">
 								<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->price, 2) }}</bdi></span>
 							</td>
-							<td class="product-quantity" data-title="Menge">{{ $qty }}</td>
-							<td class="product-subtotal" data-title="Zwischensumme">
+							<td class="product-quantity" data-title="Quantità">{{ $qty }}</td>
+							<td class="product-subtotal" data-title="Subtotale">
 								<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($lineTotal, 2) }}</bdi></span>
 							</td>
 						</tr>
@@ -65,17 +65,17 @@
 
 			<div class="cart-collaterals">
 				<div class="cart_totals">
-					<h2>Warenkorb Summe</h2>
+					<h2>Totali carrello</h2>
 					<table cellspacing="0">
 						<tbody>
 							<tr class="order-total">
-								<th>Gesamtsumme</th>
+								<th>Totale</th>
 								<td><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($total, 2) }}</bdi></span></strong></td>
 							</tr>
 						</tbody>
 					</table>
 					<div class="wc-proceed-to-checkout">
-						<a class="checkout-button button alt wc-forward" href="{{ route('checkout') }}">Zur Kasse</a>
+						<a class="checkout-button button alt wc-forward" href="{{ route('checkout') }}">Vai alla cassa</a>
 					</div>
 				</div>
 			</div>

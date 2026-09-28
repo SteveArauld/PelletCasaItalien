@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Heim - Sr-pellethaus')
-@section('meta_description', 'Pelletofen Pelletöfen online bestellen Jetzt einkaufen Entscheiden Sie sich für einen Pelletofen für konstante Wärme Jetzt einkaufen Pelletofen -24%MCZ Ego')
+@section('title', 'Heim - PelletCasa')
+@section('meta_description', 'Stufe a pellet stufe a pellet online Acquista ora Scegli una Stufe a pellet per un calore costante Acquista ora Stufe a pellet -24%MCZ Ego')
 @section('body_class', 'home wp-singular page-template-default page wp-embed-responsive wp-theme-motta wp-child-theme-motta-child theme-motta woocommerce-no-js product-card-layout-4 product-card-mobile-show-atc no-sidebar motta-shape--round site-content-no-top-spacing site-content-no-bottom-spacing motta-navigation-bar-show elementor-default elementor-kit-8')
 
 @section('content')
@@ -22,13 +22,13 @@
 															<div class="elementor-repeater-item-d2b607b item-slider swiper-slide" data-dots="[]" data-arrow="[]">
 										<div class="slick-slide-inner ">
 											<div class="motta-slide__content">
-																																					<div class="motta-slide__title">Pelletofen</div>
+																																					<div class="motta-slide__title">Stufe a pellet</div>
 												
 												
-																									<div class="motta-slide__description">Pelletöfen online bestellen</div>
+																									<div class="motta-slide__description">stufe a pellet online</div>
 												
 																								<div class="motta-slide-button ">
-													<a href="/shop" class="motta-button motta-button-primary motta-button--medium  motta-button--base "><span class="motta-button__text">Jetzt einkaufen</span></a>																									</div>
+													<a href="/negozio/" class="motta-button motta-button-primary motta-button--medium  motta-button--base "><span class="motta-button__text">Acquista ora</span></a>																									</div>
 												
 											</div>
 
@@ -40,10 +40,10 @@
 																								
 												
 																									<div class="motta-slide__description"><br><br><br><br>
-Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
+Scegli una Stufe a pellet per un calore costante</div>
 												
 																								<div class="motta-slide-button ">
-													<a href="/shop" class="motta-button motta-button-primary motta-button--medium  motta-button--base "><span class="motta-button__text">Jetzt einkaufen</span></a>																									</div>
+													<a href="/negozio/" class="motta-button motta-button-primary motta-button--medium  motta-button--base "><span class="motta-button__text">Acquista ora</span></a>																									</div>
 												
 											</div>
 
@@ -69,7 +69,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 				<div class="elementor-widget-container">
 							<div class="motta-heading-elementor motta-heading__button-on">
 				<h4 class="motta-heading motta-heading--large">
-					Pelletofen				</h4>
+					Stufe a pellet				</h4>
 							</div>
 						</div>
 				</div>
@@ -81,7 +81,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-64db9a77" data-id="64db9a77" data-element_type="column" data-e-type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-0a45784 elementor-widget elementor-widget-motta-product-grid" data-id="0a45784" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;pelletofen&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
+						<div class="elementor-element elementor-element-0a45784 elementor-widget elementor-widget-motta-product-grid" data-id="0a45784" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;stufe-a-pellet&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
 				<div class="elementor-widget-container">
 					<div class="motta-product-grid "><ul class="products product-card-layout-4 columns-4 mobile-col-2 mobile-featured-icons--load mobile-show-atc">
 @foreach($pelletofenProducts as $product)
@@ -101,11 +101,11 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 				<div class="elementor-widget-container">
 							<div class="motta-heading-elementor motta-heading__button-on">
 				<h4 class="motta-heading motta-heading--default">
-					Holzpellets				</h4>
+					Pellet di legno				</h4>
 							</div>
 						</div>
 				</div>
-				<div class="elementor-element elementor-element-26b8bfa elementor-widget elementor-widget-motta-product-grid" data-id="26b8bfa" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;holzpellets&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
+				<div class="elementor-element elementor-element-26b8bfa elementor-widget elementor-widget-motta-product-grid" data-id="26b8bfa" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;pellet-di-legno&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
 				<div class="elementor-widget-container">
 					<div class="motta-product-grid "><ul class="products product-card-layout-4 columns-4 mobile-col-2 mobile-featured-icons--load mobile-show-atc">
 @foreach($holzpelletsProducts as $product)
@@ -125,11 +125,11 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 				<div class="elementor-widget-container">
 							<div class="motta-heading-elementor motta-heading__button-on">
 				<h4 class="motta-heading motta-heading--default">
-					Brennholz				</h4>
+					Legna da ardere				</h4>
 							</div>
 						</div>
 				</div>
-				<div class="elementor-element elementor-element-d2686be elementor-widget elementor-widget-motta-product-grid" data-id="d2686be" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;brennholz&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
+				<div class="elementor-element elementor-element-d2686be elementor-widget elementor-widget-motta-product-grid" data-id="d2686be" data-element_type="widget" data-e-type="widget" data-settings="{&quot;limit&quot;:20,&quot;product_cat&quot;:&quot;legna-da-ardere&quot;,&quot;columns&quot;:&quot;4&quot;,&quot;products&quot;:&quot;recent&quot;,&quot;product_outofstock&quot;:&quot;yes&quot;}" data-widget_type="motta-product-grid.default">
 				<div class="elementor-widget-container">
 					<div class="motta-product-grid "><ul class="products product-card-layout-4 columns-4 mobile-col-2 mobile-featured-icons--load mobile-show-atc">
 @foreach($brennholzProducts as $product)
@@ -150,7 +150,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 				<div class="elementor-widget-container">
 							<div class="motta-heading-elementor motta-heading__button-on">
 				<h4 class="motta-heading motta-heading--large">
-					Kaufen Sie mit Vertrauen				</h4>
+					Acquista con fiducia				</h4>
 							</div>
 						</div>
 				</div>
@@ -173,7 +173,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 
 				
 									<p class="elementor-icon-box-description">
-						Kostenlose Lieferung nach Hause					</p>
+						Consegna gratuita a domicilio					</p>
 				
 			</div>
 			
@@ -193,7 +193,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 
 				
 									<p class="elementor-icon-box-description">
-						Schnelle Lieferung in 1 bis 7 Tagen					</p>
+						Consegna rapida in 1-7 giorni					</p>
 				
 			</div>
 			
@@ -213,7 +213,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 
 				
 									<p class="elementor-icon-box-description">
-						14 Tage Rückgaberecht					</p>
+						Diritto di reso entro 14 giorni					</p>
 				
 			</div>
 			
@@ -233,7 +233,7 @@ Entscheiden Sie sich für einen Pelletofen für konstante Wärme</div>
 
 				
 									<p class="elementor-icon-box-description">
-						Support rund um die Uhr					</p>
+						Supporto disponibile 24 ore su 24					</p>
 				
 			</div>
 			

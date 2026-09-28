@@ -1,22 +1,22 @@
 <x-mail::message>
-# Neue Kontaktanfrage
+# Nuova richiesta di contatto
 
-Sie haben eine neue Nachricht über das Kontaktformular auf **Sr-pellethaus** erhalten.
+Hai ricevuto un nuovo messaggio tramite il modulo di contatto su **PelletCasa**.
 
 <x-mail::panel>
-**Name:** {{ $contact['name'] }}  
-**E-Mail:** [{{ $contact['email'] }}](mailto:{{ $contact['email'] }})  
-**Thema:** {{ filled($contact['subject'] ?? null) ? $contact['subject'] : '—' }}
+**Nome:** {{ $contact['name'] }}  
+**E-mail:** [{{ $contact['email'] }}](mailto:{{ $contact['email'] }})  
+**Oggetto:** {{ filled($contact['subject'] ?? null) ? $contact['subject'] : '—' }}
 </x-mail::panel>
 
-## Nachricht
+## Messaggio
 
 {{ $contact['message'] }}
 
 <x-mail::button :url="'mailto:'.$contact['email']" color="primary">
-Antworten
+Rispondi
 </x-mail::button>
 
-Mit freundlichen Grüßen,<br>
-Sr-pellethaus System
+Cordiali saluti,<br>
+Sistema PelletCasa
 </x-mail::message>

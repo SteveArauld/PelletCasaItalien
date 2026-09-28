@@ -21,7 +21,7 @@ class CheckoutController extends Controller
         $cart = session('cart', []);
 
         if (empty($cart)) {
-            return redirect()->route('cart')->with('error', 'Ihr Warenkorb ist leer.');
+            return redirect()->route('cart')->with('error', 'Il tuo carrello è vuoto.');
         }
 
         $products = Product::whereIn('id', array_keys($cart))->get()->keyBy('id');
@@ -35,7 +35,7 @@ class CheckoutController extends Controller
         $cart = session('cart', []);
 
         if (empty($cart)) {
-            return redirect()->route('cart')->with('error', 'Ihr Warenkorb ist leer.');
+            return redirect()->route('cart')->with('error', 'Il tuo carrello è vuoto.');
         }
 
         $data = $request->validate([

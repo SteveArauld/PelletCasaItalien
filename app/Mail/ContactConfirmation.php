@@ -20,7 +20,7 @@ class ContactConfirmation extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Wir haben Ihre Nachricht erhalten – Sr-pellethaus',
+            subject: 'Abbiamo ricevuto il tuo messaggio – PelletCasa',
         );
     }
 

@@ -20,13 +20,13 @@
 	<form class="cart ajax-cart-form ph-product-cart" action="{{ route('cart.add', $product) }}" method="post">
 		@csrf
 		<div class="quantity motta-qty-stepper">
-			<button type="button" class="qty-btn qty-btn--minus" aria-label="Menge verringern">&minus;</button>
+			<button type="button" class="qty-btn qty-btn--minus" aria-label="Diminuisci quantità">&minus;</button>
 			<input type="number" name="quantity" value="1" min="1" class="input-text qty text" inputmode="numeric">
-			<button type="button" class="qty-btn qty-btn--plus" aria-label="Menge erhöhen">&plus;</button>
+			<button type="button" class="qty-btn qty-btn--plus" aria-label="Aumenta quantità">&plus;</button>
 		</div>
 		<button type="submit" class="single_add_to_cart_button button alt motta-button">
-			<span class="add-to-cart-text">In den Warenkorb</span>
+			<span class="add-to-cart-text">Aggiungi al carrello</span>
 		</button>
 	</form>
-	<a href="{{ route('product', $product->slug) }}" class="motta-button motta-button--text motta-button--full-details">Alle Details ansehen</a>
+	<a href="{{ route('product', $product->slug) }}" class="motta-button motta-button--text motta-button--full-details">Vedi tutti i dettagli</a>
 </div>

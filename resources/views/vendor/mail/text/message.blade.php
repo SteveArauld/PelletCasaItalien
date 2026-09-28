@@ -2,7 +2,7 @@
     {{-- Header --}}
     <x-slot:header>
         <x-mail::header :url="config('app.url')">
-            Sr-pellethaus
+            PelletCasa
         </x-mail::header>
     </x-slot:header>
 
@@ -21,10 +21,10 @@
     {{-- Footer --}}
     <x-slot:footer>
         <x-mail::footer>
-            Sr-pellethaus · HOLZ & PELLETS
-            {{ config('mail.admin_address') }} · +49 8722 965 418
-            Industriestraße 8, 84359 Simbach am Inn, Deutschland
-            © {{ date('Y') }} Sr-pellethaus. Alle Rechte vorbehalten.
+            PelletCasa · LEGNO & PELLET
+            {{ config('mail.admin_address') }} · +39 02 8475 1932
+            Via Monte Napoleone 18, 20121 Milano, Italia
+            © {{ date('Y') }} PelletCasa. Tutti i diritti riservati.
         </x-mail::footer>
     </x-slot:footer>
 </x-mail::layout>

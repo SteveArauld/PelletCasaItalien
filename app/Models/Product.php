@@ -97,12 +97,13 @@ class Product extends Model
     public function descriptionSections(): array
     {
         $headings = [
-            'Technische Zusammenfassung',
-            'Detaillierte Beschreibung',
-            'Technische Eigenschaften',
-            'Lieferung',
-            'Lagerung & Verwendung',
-            'Widerrufsrecht',
+            'Riepilogo tecnico',
+            'Descrizione dettagliata',
+            'Caratteristiche tecniche',
+            'Consegna',
+            'Stoccaggio e utilizzo',
+            'Conservazione e utilizzo',
+            'Diritto di recesso',
         ];
 
         $lines = preg_split('/\r\n|\r|\n/', trim((string) $this->description));
@@ -123,7 +124,7 @@ class Product extends Model
             }
 
             if ($current === null) {
-                $current = 'Beschreibung';
+                $current = 'Descrizione';
                 $sections[$current] = [];
             }
 

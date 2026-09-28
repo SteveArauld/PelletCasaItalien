@@ -14,9 +14,9 @@ class OrderTrackingTest extends TestCase
     {
         $this->get(route('tracking-order'))
             ->assertOk()
-            ->assertSee('Bestellung verfolgen', false)
-            ->assertSee('Order ID', false)
-            ->assertSee('Track', false);
+            ->assertSee('Traccia ordine', false)
+            ->assertSee('ID ordine', false)
+            ->assertSee('Traccia', false);
     }
 
     public function test_tracking_finds_order_by_reference_and_email(): void
@@ -33,7 +33,7 @@ class OrderTrackingTest extends TestCase
             'email' => 'buyer@example.com',
         ]))
             ->assertOk()
-            ->assertSee('Bestellung TRACK123', false)
+            ->assertSee('Ordine TRACK123', false)
             ->assertSee('buyer@example.com', false)
             ->assertSee((string) $order->reference, false);
     }
@@ -45,13 +45,13 @@ class OrderTrackingTest extends TestCase
             'email' => 'nobody@example.com',
         ]))
             ->assertOk()
-            ->assertSee('Keine Bestellung', false);
+            ->assertSee('Nessun ordine', false);
     }
 
     public function test_contact_and_help_center_pages_render(): void
     {
-        $this->get(route('help-center'))->assertOk()->assertSee('How can we help you?', false);
-        $this->get(route('contact'))->assertOk()->assertSee('Kontaktieren Sie uns', false);
-        $this->get(route('login'))->assertOk()->assertSee('Sign in', false);
+        $this->get(route('help-center'))->assertOk()->assertSee('Come possiamo aiutarti?', false);
+        $this->get(route('contact'))->assertOk()->assertSee('Contattaci', false);
+        $this->get(route('login'))->assertOk()->assertSee('Accedi', false);
     }
 }

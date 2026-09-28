@@ -13,33 +13,33 @@ class CatalogCategoryFilterTest extends TestCase
 
     public function test_category_page_preserves_price_filter_when_switching_category_links(): void
     {
-        $brennholz = Category::factory()->create(['name' => 'Brennholz', 'slug' => 'brennholz']);
-        $pellets = Category::factory()->create(['name' => 'Holzpellets', 'slug' => 'holzpellets']);
+        $brennholz = Category::factory()->create(['name' => 'Legna da ardere', 'slug' => 'legna-da-ardere']);
+        $pellets = Category::factory()->create(['name' => 'Pellet di legno', 'slug' => 'pellet-di-legno']);
 
         Product::factory()->create(['category_id' => $brennholz->id, 'price' => 80, 'name' => 'Buche cheap']);
         Product::factory()->create(['category_id' => $pellets->id, 'price' => 90, 'name' => 'Pellets cheap']);
 
         $response = $this->get(route('category', [
-            'slug' => 'brennholz',
+            'slug' => 'legna-da-ardere',
             'price_range' => ['0-100'],
         ]));
 
         $response->assertOk();
-        $response->assertSee('Refine by', false);
-        $response->assertSee('Brennholz', false);
+        $response->assertSee('Affina per', false);
+        $response->assertSee('Legna da ardere', false);
         $response->assertSee('page-header__image', false);
-        $response->assertSee('product-category/holzpellets', false);
+        $response->assertSee('categoria-prodotto/pellet-di-legno', false);
         $response->assertSee('price_range', false);
     }
 
     public function test_shop_keeps_price_and_category_filters_together(): void
     {
-        $brennholz = Category::factory()->create(['name' => 'Brennholz', 'slug' => 'brennholz']);
+        $brennholz = Category::factory()->create(['name' => 'Legna da ardere', 'slug' => 'legna-da-ardere']);
         Product::factory()->create(['category_id' => $brennholz->id, 'price' => 80, 'name' => 'Buche cheap']);
         Product::factory()->create(['category_id' => $brennholz->id, 'price' => 300, 'name' => 'Buche expensive']);
 
         $response = $this->get(route('shop', [
-            'product_cat' => ['brennholz'],
+            'product_cat' => ['legna-da-ardere'],
             'price_range' => ['0-100'],
         ]));
 

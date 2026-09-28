@@ -3,14 +3,14 @@
 @foreach($sections as $heading => $lines)
 	<h2>{{ $heading }}</h2>
 
-	@if($heading === 'Technische Zusammenfassung' || $heading === 'Lagerung & Verwendung')
+	@if($heading === 'Riepilogo tecnico' || $heading === 'Stoccaggio e utilizzo' || $heading === 'Conservazione e utilizzo')
 		<ul>
 			@foreach($lines as $line)
 				<li>{{ $line }}</li>
 			@endforeach
 		</ul>
 
-	@elseif($heading === 'Technische Eigenschaften')
+	@elseif($heading === 'Caratteristiche tecniche')
 		<table class="product-spec-table" style="width:100%;border-collapse:collapse;">
 			@for($i = 0; $i < count($lines); $i += 2)
 				<tr style="border-bottom:1px solid #eee;">
@@ -20,7 +20,7 @@
 			@endfor
 		</table>
 
-	@elseif($heading === 'Lieferung')
+	@elseif($heading === 'Consegna')
 		@php($intro = str_contains($lines[0] ?? '', ':') ? array_shift($lines) : null)
 		@if($intro)
 			<p><strong>{{ Str::before($intro, ':') }}:</strong>{{ Str::after($intro, ':') }}</p>

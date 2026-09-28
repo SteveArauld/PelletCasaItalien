@@ -1,60 +1,60 @@
 @extends('layouts.app')
 
-@section('title', 'Bestellung bestätigt - Sr-pellethaus')
+@section('title', 'Ordine confermato - PelletCasa')
 @section('body_class', 'page-template-default page theme-motta woocommerce woocommerce-order-received no-sidebar elementor-default elementor-kit-8')
 
 @section('content')
 @php
-	$paymentLabels = ['vorkasse' => 'Vorkasse'];
+	$paymentLabels = ['vorkasse' => 'Bonifico anticipato'];
 	$paymentLabel = $paymentLabels[$order->payment_method] ?? ucfirst((string) $order->payment_method);
 @endphp
 
 <div id="page-header" class="page-header page-header--checkout">
 	<div class="container clearfix">
 		<div class="page-header__content">
-			<h1 class="page-header__title">Kasse</h1>
+			<h1 class="page-header__title">Cassa</h1>
 		</div>
 	</div>
 </div>
 
 <div id="site-content" class="site-content">
 	<div class="container clearfix ph-order-received">
-		<p class="ph-order-received__thanks">Vielen Dank. Deine Bestellung ist eingegangen.</p>
+		<p class="ph-order-received__thanks">Grazie. Il tuo ordine è stato ricevuto.</p>
 
 		<ul class="ph-order-received__overview woocommerce-order-overview">
 			<li>
-				<span class="ph-order-received__label">Bestellnummer:</span>
+				<span class="ph-order-received__label">Numero ordine:</span>
 				<strong>{{ $order->reference }}</strong>
 			</li>
 			<li>
-				<span class="ph-order-received__label">Datum:</span>
-				<strong>{{ $order->created_at->translatedFormat('j. F Y') }}</strong>
+				<span class="ph-order-received__label">Data:</span>
+				<strong>{{ $order->created_at->translatedFormat('j F Y') }}</strong>
 			</li>
 			<li>
-				<span class="ph-order-received__label">Gesamt:</span>
+				<span class="ph-order-received__label">Totale:</span>
 				<strong>€{{ number_format($order->total, 2) }}</strong>
 			</li>
 			<li>
-				<span class="ph-order-received__label">Zahlungsart:</span>
+				<span class="ph-order-received__label">Metodo di pagamento:</span>
 				<strong>{{ $paymentLabel }}</strong>
 			</li>
 		</ul>
 
 		@if($order->payment_method === 'vorkasse')
 			<div class="ph-order-received__instructions">
-				<p>Vielen Dank für deine Bestellung. Sobald die Zahlung bei uns eingegangen ist, wird deine Bestellung reserviert und versendet.</p>
-				<p>Bitte sende uns eine Kopie deiner Vorkasse-Überweisung an <a href="mailto:kontakt@sr-pellethaus.de">kontakt@sr-pellethaus.de</a>.</p>
-				<p>Wichtig: Stelle sicher, dass der Name und die Lieferadresse auf der Überweisung mit den Angaben in deiner Bestellung übereinstimmen, damit die Bank die Zahlung nicht storniert.</p>
+				<p>Grazie per il tuo ordine. Non appena il pagamento sarà accreditato, l’ordine verrà riservato e spedito.</p>
+				<p>Ti preghiamo di inviarci una copia del bonifico a <a href="mailto:contatto@pelletcasa.it">contatto@pelletcasa.it</a>.</p>
+				<p>Importante: assicurati che nome e indirizzo di consegna sul bonifico corrispondano ai dati del tuo ordine, affinché la banca non annulli il pagamento.</p>
 			</div>
 		@endif
 
 		<section class="ph-order-received__details">
-			<h2>Bestelldetails</h2>
+			<h2>Dettagli ordine</h2>
 			<table class="shop_table order_details">
 				<thead>
 					<tr>
-						<th class="product-name">Produkt</th>
-						<th class="product-total">Gesamtsumme</th>
+						<th class="product-name">Prodotto</th>
+						<th class="product-total">Totale</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -67,27 +67,27 @@
 				</tbody>
 				<tfoot>
 					<tr>
-						<th>Zwischensumme:</th>
+						<th>Subtotale:</th>
 						<td>€{{ number_format($order->total, 2) }}</td>
 					</tr>
 					<tr>
-						<th>Gesamt:</th>
+						<th>Totale:</th>
 						<td><strong>€{{ number_format($order->total, 2) }}</strong></td>
 					</tr>
 					<tr>
-						<th>Zahlungsart:</th>
+						<th>Metodo di pagamento:</th>
 						<td>{{ $paymentLabel }}</td>
 					</tr>
 					@if($order->notes)
 						<tr>
-							<th>Anmerkung:</th>
+							<th>Nota:</th>
 							<td>{{ $order->notes }}</td>
 						</tr>
 					@endif
 					<tr>
-						<th>Aktionen:</th>
+						<th>Azioni:</th>
 						<td>
-							<a class="ph-order-received__invoice" href="mailto:kontakt@sr-pellethaus.de?subject=Rechnung%20{{ $order->reference }}">Rechnung</a>
+							<a class="ph-order-received__invoice" href="mailto:contatto@pelletcasa.it?subject=Fattura%20{{ $order->reference }}">Fattura</a>
 						</td>
 					</tr>
 				</tfoot>
@@ -95,7 +95,7 @@
 		</section>
 
 		<section class="ph-order-received__address">
-			<h2>Rechnungsadresse</h2>
+			<h2>Indirizzo di fatturazione</h2>
 			<address>
 				@if($order->company){{ $order->company }}<br>@endif
 				{{ $order->name }}<br>

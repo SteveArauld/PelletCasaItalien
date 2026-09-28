@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $product->name.' - Sr-pellethaus')
+@section('title', $product->name.' - PelletCasa')
 @section('body_class', 'single single-product postid-'.$product->id.' woocommerce woocommerce-page theme-motta no-sidebar elementor-default elementor-kit-8')
 
 @section('content')
@@ -9,7 +9,7 @@
 <div id="site-content" class="site-content">
 
 	<div class="container clearfix ">
-	<div id="primary" class="content-area"><main id="main" class="site-main" role="main"><div class="motta-breadcrumb-social-wrapper"><nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Start</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>@if($product->category)<a href="{{ route('category', $product->category->slug) }}">{{ $product->category->name }}</a>@endif<span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>{{ $product->name }}</nav><div class="motta-product-quick-links">
+	<div id="primary" class="content-area"><main id="main" class="site-main" role="main"><div class="motta-breadcrumb-social-wrapper"><nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Home</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>@if($product->category)<a href="{{ route('category', $product->category->slug) }}">{{ $product->category->name }}</a>@endif<span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>{{ $product->name }}</nav><div class="motta-product-quick-links">
 <a href="#" class="motta-button motta-button--text motta-button--product-share" data-toggle="modal" data-target="socials-popup" role="button">
 	<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--share-mini" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.50002 5.89999V7.09999H8.90002V12.9H2.10002V7.09999H3.50002V5.89999H0.900024V14.1H10.1V5.89999H7.50002Z" fill="currentColor"/><path d="M4.90002 2.94999V9.99999H6.10002V2.94999L8.08002 4.91999L8.92002 4.07999L5.50002 0.649994L2.08002 4.07999L2.92002 4.91999L4.90002 2.94999Z" fill="currentColor"/></svg></span></span>
 	<span class="motta-button__text ">Aktie</span>
@@ -80,41 +80,41 @@
 <a href="#" class="motta-button motta-button--icon motta-button--raised motta-shape--circle motta-button--product-lightbox">
 	<span class="motta-svg-icon motta-svg-icon--full-screen" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M14.667 24h-6.667v-6.667h2.667v4h4z"></path><path d="M10.667 14.667h-2.667v-6.667h6.667v2.667h-4z"></path><path d="M24 14.667h-2.667v-4h-4v-2.667h6.667z"></path><path d="M24 24h-6.667v-2.667h4v-4h2.667z"></path></svg></span></a></div><div class="product-featured-icons"><a href="#" data-product_id="{{ $product->id }}" data-product_title="{{ $product->name }}" class="wcboost-products-compare-button wcboost-products-compare-button--ajax motta-button motta-button--text motta-button-compare--remove" aria-label="Compare &ldquo;{{ $product->name }}&rdquo;" role="button">
 				<span class="wcboost-products-compare-button__icon"><span class="motta-svg-icon motta-svg-icon--compare" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M13.136 14.864l-3.68-3.664h16.144v-3.2h-16.144l3.68-3.664-2.272-2.272-7.52 7.536 7.52 7.536z"></path><path d="M21.136 14.864l-2.272 2.272 3.68 3.664h-16.144v3.2h16.144l-3.68 3.664 2.272 2.272 7.52-7.536z"></path></svg></span></span>
-				<span class="wcboost-products-compare-button__text" data-add="Zum Vergleich hinzufügen" data-remove="Remove Compare" data-view="Browse Compare">Compare</span>
+				<span class="wcboost-products-compare-button__text" data-add="Aggiungi al confronto" data-remove="Rimuovi dal confronto" data-view="Sfoglia confronti">Confronta</span>
 			</a><a href="{{ route('wishlist.toggle', $product) }}" data-url="{{ route('wishlist.toggle', $product) }}" data-quantity="1" data-product_id="{{ $product->id }}"  data-product_title="{{ $product->name }}" data-variations="" class="wcboost-wishlist-button wishlist-toggle wcboost-wishlist-button--theme button wp-element-button wcboost-wishlist-button--ajax motta-button motta-button--text motta-button--wishlist motta-button-wishlist--view {{ auth()->check() && auth()->user()->favorites()->where('product_id', $product->id)->exists() ? 'is-active' : '' }}" aria-label="Add &ldquo;{{ $product->name }}&rdquo; to the wishlist">
 				<span class="motta-button__icon add-to-wishlist-button__icon wcboost-wishlist-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-				<span class="motta-button__text add-to-wishlist-button__text wcboost-wishlist-button__text" data-add="Zur Wunschliste hinzufügen" data-remove="Remove Wishlist" data-view="View Wishlist">Wunschliste</span>
+				<span class="motta-button__text add-to-wishlist-button__text wcboost-wishlist-button__text" data-add="Aggiungi alla lista desideri" data-remove="Rimuovi dalla lista" data-view="Vedi lista desideri">Lista desideri</span>
 			</a></div><div class="product-fixed-gallery-spacing"></div></div>
 	<div class="summary entry-summary">
 		<h1 class="product_title entry-title">{{ $product->name }}</h1><div class="product-meta-wrapper"><div class="meta meta-cat">in @if($product->category)<a href="{{ route('category', $product->category->slug) }}">{{ $product->category->name }}</a>@endif</div></div><div class="motta-price-stock variations-attribute-change"><p class="price">
 @if($product->isOnSale())
-<ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->price, 2) }}</bdi></span></ins> <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->regular_price, 2) }}</bdi></span></del><span class="price__save"><span class="text">Save:</span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->regular_price - $product->price, 2) }}</bdi></span></span>
+<ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->price, 2) }}</bdi></span></ins> <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->regular_price, 2) }}</bdi></span></del><span class="price__save"><span class="text">Risparmi:</span><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->regular_price - $product->price, 2) }}</bdi></span></span>
 @else
 <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&euro;</span>{{ number_format($product->price, 2) }}</bdi></span>
 @endif
 </p>
-<p class="stock in-stock">Auf Lager verfügbar</p>
+<p class="stock in-stock">Disponibile</p>
 </div>
 	
 	<form class="cart ph-product-cart" action="{{ route('cart.add', $product) }}" method="post">
 @csrf
 <div class="quantity motta-qty-stepper">
-	<button type="button" class="qty-btn qty-btn--minus" aria-label="Menge verringern">&minus;</button>
+	<button type="button" class="qty-btn qty-btn--minus" aria-label="Diminuisci quantità">&minus;</button>
 	<input type="number" name="quantity" value="1" min="1" class="input-text qty text" inputmode="numeric">
-	<button type="button" class="qty-btn qty-btn--plus" aria-label="Menge erhöhen">&plus;</button>
+	<button type="button" class="qty-btn qty-btn--plus" aria-label="Aumenta quantità">&plus;</button>
 </div>
 <button type="submit" name="add-to-cart" value="{{ $product->id }}" class="single_add_to_cart_button button alt motta-button">
-			<span class="motta-svg-icon motta-svg-icon--cart-trolley single_add_to_cart_button--icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M25.248 22.4l3.552-14.4h-18.528l-0.96-4.8h-6.112v3.2h3.488l3.2 16h15.36zM24.704 11.2l-1.968 8h-10.24l-1.6-8h13.808z"></path><path d="M25.6 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path><path d="M14.4 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path></svg></span>			<span class="single_add_to_cart_button--text">In den Warenkorb</span>		</button>
-<button type="submit" formaction="{{ route('cart.add', $product) }}" name="buy-now" value="1" class="motta-buy-now-button motta-button motta-button--ghost">Jetzt kaufen</button>
+			<span class="motta-svg-icon motta-svg-icon--cart-trolley single_add_to_cart_button--icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M25.248 22.4l3.552-14.4h-18.528l-0.96-4.8h-6.112v3.2h3.488l3.2 16h15.36zM24.704 11.2l-1.968 8h-10.24l-1.6-8h13.808z"></path><path d="M25.6 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path><path d="M14.4 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path></svg></span>			<span class="single_add_to_cart_button--text">Aggiungi al carrello</span>		</button>
+<button type="submit" formaction="{{ route('cart.add', $product) }}" name="buy-now" value="1" class="motta-buy-now-button motta-button motta-button--ghost">Acquista ora</button>
 </form>
 
 	
 <div class="product-featured-icons"><a href="#" data-product_id="{{ $product->id }}" data-product_title="{{ $product->name }}" class="wcboost-products-compare-button wcboost-products-compare-button--ajax motta-button motta-button--text motta-button-compare--remove" aria-label="Compare &ldquo;{{ $product->name }}&rdquo;" role="button">
 				<span class="wcboost-products-compare-button__icon"><span class="motta-svg-icon motta-svg-icon--compare" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M13.136 14.864l-3.68-3.664h16.144v-3.2h-16.144l3.68-3.664-2.272-2.272-7.52 7.536 7.52 7.536z"></path><path d="M21.136 14.864l-2.272 2.272 3.68 3.664h-16.144v3.2h16.144l-3.68 3.664 2.272 2.272 7.52-7.536z"></path></svg></span></span>
-				<span class="wcboost-products-compare-button__text" data-add="Zum Vergleich hinzufügen" data-remove="Remove Compare" data-view="Browse Compare">Compare</span>
+				<span class="wcboost-products-compare-button__text" data-add="Aggiungi al confronto" data-remove="Rimuovi dal confronto" data-view="Sfoglia confronti">Confronta</span>
 			</a><a href="{{ route('wishlist.toggle', $product) }}" data-url="{{ route('wishlist.toggle', $product) }}" data-quantity="1" data-product_id="{{ $product->id }}"  data-product_title="{{ $product->name }}" data-variations="" class="wcboost-wishlist-button wishlist-toggle wcboost-wishlist-button--theme button wp-element-button wcboost-wishlist-button--ajax motta-button motta-button--text motta-button--wishlist motta-button-wishlist--view {{ auth()->check() && auth()->user()->favorites()->where('product_id', $product->id)->exists() ? 'is-active' : '' }}" aria-label="Add &ldquo;{{ $product->name }}&rdquo; to the wishlist">
 				<span class="motta-button__icon add-to-wishlist-button__icon wcboost-wishlist-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-				<span class="motta-button__text add-to-wishlist-button__text wcboost-wishlist-button__text" data-add="Zur Wunschliste hinzufügen" data-remove="Remove Wishlist" data-view="View Wishlist">Wunschliste</span>
+				<span class="motta-button__text add-to-wishlist-button__text wcboost-wishlist-button__text" data-add="Aggiungi alla lista desideri" data-remove="Rimuovi dalla lista" data-view="Vedi lista desideri">Lista desideri</span>
 			</a></div><div class="product_meta">
 
 	
@@ -130,7 +130,7 @@
 <path d="M4.571 13.714h9.143v2.263h-9.143v-2.263z"></path>
 </svg></span>
 						
-																					<a href="#tab-shipping-returns" class="motta-icon-box-widget__text motta-button motta-button--text">Free Shipping &amp; Returns on this item</a>
+																					<a href="#tab-shipping-returns" class="motta-icon-box-widget__text motta-button motta-button--text">Spedizione e resi gratuiti su questo articolo</a>
 													
 																					<a href="#tab-shipping-returns" class="motta-icon-box-widget__button motta-button motta-button--text">See Details</a>
 																		</div>
@@ -150,18 +150,18 @@
 		<ul class="motta-tabs-heading tabs wc-tabs" role="tablist">
 							<li role="presentation" class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
 					<a href="#tab-description" role="tab" aria-controls="tab-description">
-						Beschreibung					</a>
+						Descrizione					</a>
 				</li>
 											<li role="presentation" class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
 					<a href="#tab-reviews" role="tab" aria-controls="tab-reviews">
-						Rezensionen (0)					</a>
+						Recensioni (0)					</a>
 				</li>
 									</ul>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">@include('partials.product-description')</div>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab" id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
 				<a id="tab-panel-title-reviews" data-tab="tab-title-reviews" href="#tab-reviews"
 						class="motta-dropdown__title tab-title-reviews ">
-						Rezensionen (0)						<span class="motta-svg-icon motta-svg-icon--plus icon-plus icon-noactive" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M26.667 13.333h-8v-8h-5.333v8h-8v5.333h8v8h5.333v-8h8z"></path></svg></span><span class="motta-svg-icon motta-svg-icon--minus icon-minus icon-active" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M26.667 13.333v5.333h-21.333v-5.333h21.333z"></path></svg></span>				</a>
+						Recensioni (0)						<span class="motta-svg-icon motta-svg-icon--plus icon-plus icon-noactive" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M26.667 13.333h-8v-8h-5.333v8h-8v5.333h8v8h5.333v-8h8z"></path></svg></span><span class="motta-svg-icon motta-svg-icon--minus icon-minus icon-active" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M26.667 13.333v5.333h-21.333v-5.333h21.333z"></path></svg></span>				</a>
 				<div class="motta-dropdown__content">
 					<div id="reviews" class="woocommerce-Reviews">
 	<div class="motta-product-rating"><div class="motta-product-rating__title">Ratings</div><div class="motta-product-rating__wrapper"><div class="motta-product-rating__heading">
@@ -174,12 +174,12 @@
 								<div class="motta-product-rating__bar"><div class="star-item 5-stars"><div class="slabel">5 <span class="motta-svg-icon motta-svg-icon--star" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 1.333l3.467 11.2h11.2l-9.067 6.933 3.467 11.2-9.067-6.933-9.067 6.933 3.467-11.2-9.067-6.933h11.2z"></path></svg></span></div><div class="sbar"><div class="bar-content"><span class="bar-star bar-star--5 "></span></div></div><div class="svalue">0</div></div><div class="star-item 4-stars"><div class="slabel">4 <span class="motta-svg-icon motta-svg-icon--star" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 1.333l3.467 11.2h11.2l-9.067 6.933 3.467 11.2-9.067-6.933-9.067 6.933 3.467-11.2-9.067-6.933h11.2z"></path></svg></span></div><div class="sbar"><div class="bar-content"><span class="bar-star bar-star--4 "></span></div></div><div class="svalue">0</div></div><div class="star-item 3-stars"><div class="slabel">3 <span class="motta-svg-icon motta-svg-icon--star" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 1.333l3.467 11.2h11.2l-9.067 6.933 3.467 11.2-9.067-6.933-9.067 6.933 3.467-11.2-9.067-6.933h11.2z"></path></svg></span></div><div class="sbar"><div class="bar-content"><span class="bar-star bar-star--3 "></span></div></div><div class="svalue">0</div></div><div class="star-item 2-stars"><div class="slabel">2 <span class="motta-svg-icon motta-svg-icon--star" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 1.333l3.467 11.2h11.2l-9.067 6.933 3.467 11.2-9.067-6.933-9.067 6.933 3.467-11.2-9.067-6.933h11.2z"></path></svg></span></div><div class="sbar"><div class="bar-content"><span class="bar-star bar-star--2 "></span></div></div><div class="svalue">0</div></div><div class="star-item 1-stars"><div class="slabel">1 <span class="motta-svg-icon motta-svg-icon--star" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 1.333l3.467 11.2h11.2l-9.067 6.933 3.467 11.2-9.067-6.933-9.067 6.933 3.467-11.2-9.067-6.933h11.2z"></path></svg></span></div><div class="sbar"><div class="bar-content"><span class="bar-star bar-star--1 "></span></div></div><div class="svalue">0</div></div></div>
 								<div class="motta-product-rating__summary">
 									<h4>Review this product</h4>
-									<p>Share your thoughts with other customers</p>
+									<p>Condividi la tua opinione con altri clienti</p>
 								</div></div></div>	<div id="comments">
 		<h2 class="woocommerce-Reviews-title">
-			Rezensionen		</h2>
+			Recensioni		</h2>
 
-					<p class="woocommerce-noreviews">Es gibt noch keine Rezensionen.</p>
+					<p class="woocommerce-noreviews">Es gibt noch keine Recensioni.</p>
 			</div>
 	<div class="clear"></div>
 </div>

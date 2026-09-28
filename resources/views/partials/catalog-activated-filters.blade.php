@@ -23,9 +23,9 @@
 
 <div class="products-filter__activated" data-filter-activated>
 	<div class="products-filter__activated-heading">
-		<h6>Refine by</h6>
+		<h6>Affina per</h6>
 		@if($hasAnyFilter)
-			<a href="{{ route('shop') }}" class="reset-button" data-filter-clear>Clear All</a>
+			<a href="{{ route('shop') }}" class="reset-button" data-filter-clear>Cancella tutto</a>
 		@endif
 	</div>
 	<div class="products-filter__activated-items">
@@ -37,10 +37,10 @@
 			<a href="#" class="remove-filtered" data-filter-remove="product_cat" data-value="{{ $catSlug }}">{{ $catLabel }} <span aria-hidden="true">×</span></a>
 		@endforeach
 		@foreach($selectedRanges as $range)
-			<a href="#" class="remove-filtered" data-filter-remove="price_range" data-value="{{ $range }}">Price: {{ $rangeLabels[$range] ?? $range }} <span aria-hidden="true">×</span></a>
+			<a href="#" class="remove-filtered" data-filter-remove="price_range" data-value="{{ $range }}">Prezzo: {{ $rangeLabels[$range] ?? $range }} <span aria-hidden="true">×</span></a>
 		@endforeach
 		@if(($minPrice !== null && $minPrice !== '') || ($maxPrice !== null && $maxPrice !== ''))
-			<a href="#" class="remove-filtered" data-filter-remove="price_custom">Price: €{{ $minPrice !== null && $minPrice !== '' ? number_format((float) $minPrice, 2) : '0.00' }} - €{{ $maxPrice !== null && $maxPrice !== '' ? number_format((float) $maxPrice, 2) : '…' }} <span aria-hidden="true">×</span></a>
+			<a href="#" class="remove-filtered" data-filter-remove="price_custom">Prezzo: €{{ $minPrice !== null && $minPrice !== '' ? number_format((float) $minPrice, 2) : '0.00' }} - €{{ $maxPrice !== null && $maxPrice !== '' ? number_format((float) $maxPrice, 2) : '…' }} <span aria-hidden="true">×</span></a>
 		@endif
 	</div>
 </div>

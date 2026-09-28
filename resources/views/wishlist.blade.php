@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Wunschliste - Sr-pellethaus')
+@section('title', 'Lista desideri - PelletCasa')
 @section('body_class', 'page-template-default page theme-motta woocommerce no-sidebar elementor-default elementor-kit-8')
 
 @section('content')
 <div id="page-header" class="page-header">
 	<div class="container clearfix">
 		<div class="page-header__content">
-			<h1 class="page-header__title">Wunschliste</h1>
+			<h1 class="page-header__title">Lista desideri</h1>
 		</div>
 	</div>
 </div>
@@ -17,8 +17,8 @@
 
 		@auth
 			@if ($favorites->isEmpty())
-				<p class="woocommerce-info">Ihre Wunschliste ist momentan leer.</p>
-				<p><a class="button wc-backward" href="{{ route('shop') }}">Zurück zum Shop</a></p>
+				<p class="woocommerce-info">La tua lista desideri è attualmente vuota.</p>
+				<p><a class="button wc-backward" href="{{ route('shop') }}">Torna al negozio</a></p>
 			@else
 				<ul class="products product-card-layout-4 columns-4 mobile-col-2">
 					@foreach ($favorites as $favorite)
@@ -30,8 +30,8 @@
 			@endif
 		@else
 			<ul class="products product-card-layout-4 columns-4 mobile-col-2" id="guest-wishlist-list"></ul>
-			<p class="woocommerce-info" id="guest-wishlist-empty" style="display:none;">Ihre Wunschliste ist momentan leer.</p>
-			<p id="guest-wishlist-empty-link" style="display:none;"><a class="button wc-backward" href="{{ route('shop') }}">Zurück zum Shop</a></p>
+			<p class="woocommerce-info" id="guest-wishlist-empty" style="display:none;">La tua lista desideri è attualmente vuota.</p>
+			<p id="guest-wishlist-empty-link" style="display:none;"><a class="button wc-backward" href="{{ route('shop') }}">Torna al negozio</a></p>
 			<script>
 				(function () {
 					var ids = [];

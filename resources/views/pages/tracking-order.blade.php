@@ -1,52 +1,52 @@
 @extends('layouts.app')
 
-@section('title', 'Bestellung verfolgen - Sr-pellethaus')
+@section('title', 'Traccia ordine - PelletCasa')
 @section('body_class', 'page-template-default page theme-motta no-sidebar elementor-default elementor-kit-8')
 
 @section('content')
 <div id="site-content" class="site-content pages-shell">
 	<div class="container clearfix">
 		<section class="track-page">
-			<h1 class="track-page__title">Bestellung verfolgen</h1>
+			<h1 class="track-page__title">Traccia ordine</h1>
 			<p class="track-page__intro">
-				To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.
+				Per tracciare il tuo ordine, inserisci l’ID ordine nella casella sottostante e premi il pulsante «Traccia». Lo trovi sulla ricevuta e nell’e-mail di conferma che dovresti aver ricevuto.
 			</p>
 
 			<div class="track-card">
 				<form method="GET" action="{{ route('tracking-order') }}" class="track-form">
 					<div class="track-form__row">
 						<div class="track-field">
-							<label for="order_id">Order ID</label>
-							<input id="order_id" type="text" name="order_id" value="{{ $orderId }}" placeholder="Found in your order confirmation email" required>
+							<label for="order_id">ID ordine</label>
+							<input id="order_id" type="text" name="order_id" value="{{ $orderId }}" placeholder="Lo trovi nell’e-mail di conferma dell’ordine" required>
 						</div>
 						<div class="track-field">
-							<label for="track_email">Billing email</label>
-							<input id="track_email" type="email" name="email" value="{{ $email }}" placeholder="Die E-Mail-Adresse, die Sie beim Bestellen verwendet haben" required>
+							<label for="track_email">E-mail di fatturazione</label>
+							<input id="track_email" type="email" name="email" value="{{ $email }}" placeholder="L’indirizzo e-mail utilizzato al momento dell’ordine" required>
 						</div>
 					</div>
-					<button type="submit" class="track-submit">Track</button>
+					<button type="submit" class="track-submit">Traccia</button>
 				</form>
 
 				@if ($notFound)
 					<div class="pages-alert pages-alert--error">
-						Keine Bestellung mit diesen Angaben gefunden.
+						Nessun ordine trovato con questi dati.
 					</div>
 				@endif
 
 				@if ($order)
 					<div class="track-result">
 						<div class="track-result__header">
-							<strong>Bestellung {{ $order->reference }}</strong>
+							<strong>Ordine {{ $order->reference }}</strong>
 							<span class="track-result__status">{{ ucfirst($order->status) }}</span>
 						</div>
-						<p>E-Mail: {{ $order->email }}</p>
-						<p>Datum: {{ $order->created_at?->format('d.m.Y H:i') }}</p>
-						<p>Gesamt: €{{ number_format((float) $order->total, 2) }}</p>
+						<p>E-mail: {{ $order->email }}</p>
+						<p>Data: {{ $order->created_at?->format('d.m.Y H:i') }}</p>
+						<p>Totale: €{{ number_format((float) $order->total, 2) }}</p>
 						@if ($order->items->isNotEmpty())
 							<ul class="track-result__items">
 								@foreach ($order->items as $item)
 									<li>
-										<span>{{ $item->product_name ?: ($item->product?->name ?? 'Produkt') }}</span>
+										<span>{{ $item->product_name ?: ($item->product?->name ?? 'Prodotto') }}</span>
 										<span>× {{ $item->quantity }}</span>
 										<span>€{{ number_format((float) $item->unit_price, 2) }}</span>
 									</li>

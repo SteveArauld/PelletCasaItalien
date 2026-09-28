@@ -1,24 +1,24 @@
 <x-mail::message>
-# Vielen Dank, {{ $contact['name'] }}!
+# Grazie, {{ $contact['name'] }}!
 
-wir haben Ihre Nachricht erhalten und werden uns so schnell wie möglich bei Ihnen melden.
+abbiamo ricevuto il tuo messaggio e ti risponderemo il prima possibile.
 
 <x-mail::panel>
-**Ihre Angaben**  
-**E-Mail:** {{ $contact['email'] }}  
-**Thema:** {{ filled($contact['subject'] ?? null) ? $contact['subject'] : '—' }}
+**I tuoi dati**  
+**E-mail:** {{ $contact['email'] }}  
+**Oggetto:** {{ filled($contact['subject'] ?? null) ? $contact['subject'] : '—' }}
 </x-mail::panel>
 
-## Ihre Nachricht
+## Il tuo messaggio
 
 {{ $contact['message'] }}
 
-Bei dringenden Anliegen erreichen Sie uns unter [{{ config('mail.admin_address') }}](mailto:{{ config('mail.admin_address') }}) oder telefonisch unter [+49 8722 965 418](tel:+498722965418).
+Per questioni urgenti puoi contattarci all’indirizzo [{{ config('mail.admin_address') }}](mailto:{{ config('mail.admin_address') }}) oppure telefonicamente al [+39 02 8475 1932](tel:+390284751932).
 
 <x-mail::button :url="route('shop')" color="primary">
-Zum Shop
+Vai al negozio
 </x-mail::button>
 
-Mit freundlichen Grüßen,<br>
-Ihr Sr-pellethaus Team
+Cordiali saluti,<br>
+Il team PelletCasa
 </x-mail::message>

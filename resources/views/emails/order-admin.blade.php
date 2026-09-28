@@ -1,35 +1,35 @@
 <x-mail::message>
-# Neue Bestellung #{{ $order->reference }}
+# Nuovo ordine #{{ $order->reference }}
 
-Eine neue Bestellung wurde soeben auf **Sr-pellethaus** aufgegeben.
+Un nuovo ordine è stato appena effettuato su **PelletCasa**.
 
 <x-mail::panel>
-**Kunde:** {{ $order->name }} ([{{ $order->email }}](mailto:{{ $order->email }}))  
-**Telefon:** {{ $order->phone ?: '—' }}  
-**Zahlung:** {{ $order->payment_method ?: '—' }}  
-**Status:** {{ $order->status }}  
-**Lieferadresse:** {{ $order->address }}@if($order->address_2), {{ $order->address_2 }}@endif, {{ $order->postal_code }} {{ $order->city }}
+**Cliente:** {{ $order->name }} ([{{ $order->email }}](mailto:{{ $order->email }}))  
+**Telefono:** {{ $order->phone ?: '—' }}  
+**Pagamento:** {{ $order->payment_method ?: '—' }}  
+**Stato:** {{ $order->status }}  
+**Indirizzo di consegna:** {{ $order->address }}@if($order->address_2), {{ $order->address_2 }}@endif, {{ $order->postal_code }} {{ $order->city }}
 @if($order->notes)
 
-**Anmerkungen:** {{ $order->notes }}
+**Note:** {{ $order->notes }}
 @endif
 </x-mail::panel>
 
-## Positionen
+## Articoli
 
 <x-mail::table>
-| Produkt | Menge | Preis |
+| Prodotto | Quantità | Prezzo |
 | :------ | :---: | ----: |
 @foreach($order->items as $item)
 | {{ $item->product_name }} | {{ $item->quantity }} | {{ number_format((float) $item->unit_price, 2, ',', '.') }} € |
 @endforeach
-| **Gesamtsumme** |  | **{{ number_format((float) $order->total, 2, ',', '.') }} €** |
+| **Totale** |  | **{{ number_format((float) $order->total, 2, ',', '.') }} €** |
 </x-mail::table>
 
 <x-mail::button :url="'mailto:'.$order->email" color="primary">
-Kunde kontaktieren
+Contatta il cliente
 </x-mail::button>
 
-Mit freundlichen Grüßen,<br>
-Sr-pellethaus System
+Cordiali saluti,<br>
+Sistema PelletCasa
 </x-mail::message>

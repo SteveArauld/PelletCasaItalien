@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Geschäft - Sr-pellethaus')
+@section('title', 'Negozio - PelletCasa')
 @section('body_class', 'archive post-type-archive post-type-archive-product wp-theme-motta wp-child-theme-motta-child theme-motta woocommerce-shop woocommerce woocommerce-page woocommerce-no-js product-card-layout-4 product-card-mobile-show-atc hfeed sidebar-content motta-shape--round motta-navigation-bar-show motta-catalog-page catalog-view-4 elementor-default elementor-kit-8 motta-blog-page')
 
 @section('content')
@@ -8,28 +8,28 @@
             
 <div id="page-header" class="page-header page-header--products page-header--standard page-header--text-custom">
 	<div class="container clearfix">
-		<nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Start</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>Geschäft</nav>
+		<nav class="woocommerce-breadcrumb site-breadcrumb"><a href="{{ route('home') }}">Home</a><span class="motta-svg-icon motta-svg-icon--right" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M11.42 29.42l-2.84-2.84 10.6-10.58-10.6-10.58 2.84-2.84 13.4 13.42z"></path></svg></span>Negozio</nav>
 		<div class="page-header__content">
 			{{-- Hero image is locked in catalog.css (slider-zermatt-pellets-2.jpg) for shop + all categories. --}}
 			<div class="page-header__image" aria-hidden="true"></div>
 			<div class="page-header__image-overlay"></div>
-			<h1 class="page-header__title">Geschäft</h1>
+			<h1 class="page-header__title">Negozio</h1>
 		</div>
 			</div>
 </div>
 
 <div id="site-content" class="site-content">
 
-	<div class="container clearfix  site-content-container"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"><div class="woocommerce-notices-wrapper"></div><div class="catalog-toolbar"><div class="mobile-catalog-toolbar "><button class="mobile-catalog-toolbar__filter-button motta-button--ghost motta-button--color-black hidden-sm hidden-md hidden-lg" data-toggle="off-canvas" data-target="mobile-filter-sidebar-panel"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filter</button><button class="mobile-catalog-toolbar__sort-button motta-button--color-black hidden-sm hidden-md hidden-lg motta-button--ghost" data-toggle="modal" data-target="mobile-orderby-modal">Sort by :<span class="name">Default</span></button></div><p class="motta-result-count" data-catalog-count>{{ $products->total() }} Results</p><div class="catalog-toolbar__toolbar"><button class="tablet-catalog-toolbar__filter-button motta-button--subtle motta-button--color-black hidden-xs hidden-lg" data-toggle="off-canvas" data-target="mobile-filter-sidebar-panel"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filter</button><span class="woocommerce-ordering__label">Sort by:</span><form class="woocommerce-ordering" method="get" action="{{ route('shop') }}" data-catalog-sort>
+	<div class="container clearfix  site-content-container"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"><div class="woocommerce-notices-wrapper"></div><div class="catalog-toolbar"><div class="mobile-catalog-toolbar "><button class="mobile-catalog-toolbar__filter-button motta-button--ghost motta-button--color-black hidden-sm hidden-md hidden-lg" data-toggle="off-canvas" data-target="mobile-filter-sidebar-panel"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filtra</button><button class="mobile-catalog-toolbar__sort-button motta-button--color-black hidden-sm hidden-md hidden-lg motta-button--ghost" data-toggle="modal" data-target="mobile-orderby-modal">Ordina per:<span class="name">Predefinito</span></button></div><p class="motta-result-count" data-catalog-count>{{ $products->total() }} risultati</p><div class="catalog-toolbar__toolbar"><button class="tablet-catalog-toolbar__filter-button motta-button--subtle motta-button--color-black hidden-xs hidden-lg" data-toggle="off-canvas" data-target="mobile-filter-sidebar-panel"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filtra</button><span class="woocommerce-ordering__label">Ordina per:</span><form class="woocommerce-ordering" method="get" action="{{ route('shop') }}" data-catalog-sort>
 		<select
 		name="orderby"
 		class="orderby"
-					aria-label="Shop-Reihenfolge"
+					aria-label="Ordine del negozio"
 			>
-					<option value="menu_order" {{ request('orderby', 'menu_order') === 'menu_order' ? 'selected' : '' }}>Default</option>
-					<option value="date" {{ request('orderby') === 'date' ? 'selected' : '' }}>Latest</option>
-					<option value="price" {{ request('orderby') === 'price' ? 'selected' : '' }}>Price: low to high</option>
-					<option value="price-desc" {{ request('orderby') === 'price-desc' ? 'selected' : '' }}>Price: high to low</option>
+					<option value="menu_order" {{ request('orderby', 'menu_order') === 'menu_order' ? 'selected' : '' }}>Predefinito</option>
+					<option value="date" {{ request('orderby') === 'date' ? 'selected' : '' }}>Più recenti</option>
+					<option value="price" {{ request('orderby') === 'price' ? 'selected' : '' }}>Prezzo: dal più basso</option>
+					<option value="price-desc" {{ request('orderby') === 'price-desc' ? 'selected' : '' }}>Prezzo: dal più alto</option>
 			</select>
 	@if(request('search'))<input type="hidden" name="search" value="{{ request('search') }}">@endif
 	@foreach((array) request('product_cat', []) as $cat)<input type="hidden" name="product_cat[]" value="{{ $cat }}">@endforeach
@@ -51,9 +51,9 @@
 	        <div class="sidebar__backdrop"></div>
         <div class="sidebar__container">
 		<span class="motta-svg-icon motta-svg-icon--close panel__button-close" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>		<div class="sidebar__header">
-			Filter &amp; Sort		</div>
+			Filtra e ordina		</div>
 		<div class="sidebar__content">
-		<section id="motta-products-filter-1" class="widget products-filter-widget woocommerce"><h4 class="widget-title"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filter</h4>
+		<section id="motta-products-filter-1" class="widget products-filter-widget woocommerce"><h4 class="widget-title"><span class="motta-svg-icon motta-svg-icon--filter" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8 14.4h3.2v-9.6h-3.2v3.2h-4.8v3.2h4.8z"></path><path d="M24 17.6h-3.2v9.6h3.2v-3.2h4.8v-3.2h-4.8z"></path><path d="M14.4 8h14.4v3.2h-14.4v-3.2z"></path><path d="M3.2 20.8h14.4v3.2h-14.4v-3.2z"></path></svg></span>Filtra</h4>
 <form id="catalog-filters" action="{{ route('shop') }}" method="get" class="has-collapse ajax-filter" data-catalog-filters>
 	<div data-catalog-activated>
 		@include('partials.catalog-activated-filters', ['categories' => $categories, 'selectedCategories' => $selectedCategories ?? []])
@@ -61,7 +61,7 @@
 	<div class="products-filter__filters filters">
 		<div class="products-filter__filter filter product_cat product_cat list">
 							<span class="products-filter__filter-name filter-name">
-					Kategorien				</span>
+					Categorie				</span>
 			<div class="products-filter__filter-control filter-control">
 				<ul class="products-filter__options products-filter--list products-filter--checkboxes filter-list">
 					@foreach($categories as $cat)
@@ -77,7 +77,7 @@
 
 		<div class="products-filter__filter filter price price ranges">
 							<span class="products-filter__filter-name filter-name">
-					Preis				</span>
+					Prezzo				</span>
 			<div class="products-filter__filter-control filter-control">
 				@php($selectedRanges = (array) request('price_range', []))
 				<ul class="products-filter__options products-filter--ranges products-filter--checkboxes filter-ranges">
@@ -93,7 +93,7 @@
 					<input type="number" name="min_price" value="{{ request('min_price') }}" placeholder="Min" class="motta-input--base" inputmode="numeric">
 					<span class="line"></span>
 					<input type="number" name="max_price" value="{{ request('max_price') }}" placeholder="Max" class="motta-input--base" inputmode="numeric">
-					<button type="submit" class="button filter-button motta-button motta-button--bg-color-black motta-button-range">Apply</button>
+					<button type="submit" class="button filter-button motta-button motta-button--bg-color-black motta-button-range">Applica</button>
 				</div>
 			</div>
 		</div>

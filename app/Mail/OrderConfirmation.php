@@ -18,7 +18,7 @@ class OrderConfirmation extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Ihre Bestellung #'.$this->order->reference.' bei Sr-pellethaus',
+            subject: 'Il tuo ordine #'.$this->order->reference.' su PelletCasa',
         );
     }
 

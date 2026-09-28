@@ -48,7 +48,7 @@
     document.addEventListener('click', function (e) {
         var toggle = e.target.closest('[data-toggle="off-canvas"], [data-toggle="modal"]');
         if (toggle && toggle.dataset.target) {
-            // Quick-view has its own AJAX handler below.
+            // Quick-view has its own AJAX heler below.
             if (toggle.dataset.target === 'quick-view-modal') {
                 return;
             }
@@ -107,12 +107,12 @@
     }
 
     function showAddedPopup(name) {
-        showToast('„' + name + '“ wurde zum Warenkorb hinzugefügt.');
+        showToast('«' + name + '» è stato aggiunto al carrello.');
     }
 
     function isCartForm(form) {
         var action = form.getAttribute('action') || '';
-        return action.indexOf('/cart/add/') !== -1 || action.indexOf('/cart/remove/') !== -1 || form.classList.contains('ajax-cart-form');
+        return action.indexOf('/carrello/add/') !== -1 || action.indexOf('/carrello/remove/') !== -1 || form.classList.contains('ajax-cart-form');
     }
 
     /* ---------- Remove-from-cart links (mini-cart + cart page) ---------- */
@@ -146,7 +146,7 @@
             .catch(function () {});
     });
 
-    /* ---------- Quick view modal (AJAX) ---------- */
+    /* ---------- Anteprima rapida modal (AJAX) ---------- */
     document.addEventListener('click', function (e) {
         var trigger = e.target.closest('[data-toggle="modal"][data-target="quick-view-modal"], .motta-button--quickview');
         if (!trigger) return;
@@ -158,7 +158,7 @@
         var container = modal ? modal.querySelector('.modal__product') : null;
         if (!url || !container) return;
 
-        container.innerHTML = '<div class="motta-loading-spinner" style="padding:60px;text-align:center;">Laden&hellip;</div>';
+        container.innerHTML = '<div class="motta-loading-spinner" style="padding:60px;text-align:center;">Caricamento&hellip;</div>';
         if (modal) modal.classList.add('loading');
         openPanel('quick-view-modal');
 
@@ -173,7 +173,7 @@
                 if (!window.isAuthenticated) syncGuestWishlistButtons();
             })
             .catch(function () {
-                container.innerHTML = '<p style="padding:40px;">Das Produkt konnte nicht geladen werden.</p>';
+                container.innerHTML = '<p style="padding:40px;">Impossibile caricare il prodotto.</p>';
                 if (modal) modal.classList.remove('loading');
             });
     });
@@ -408,7 +408,7 @@
             if (clearBtn) {
                 e.preventDefault();
                 var clearHref = clearBtn.getAttribute('href');
-                // Category pages: Clear All returns to shop (href). Shop: clear in-place.
+                // Category pages: Cancella tutto returns to shop (href). Shop: clear in-place.
                 if (clearHref && clearHref !== '#' && !form.querySelector('input[name="product_cat[]"]')) {
                     window.location.href = clearHref;
                     return;
@@ -536,7 +536,7 @@
         e.preventDefault();
 
         var action = form.getAttribute('action');
-        var isAdd = action.indexOf('/cart/add/') !== -1;
+        var isAdd = action.indexOf('/carrello/add/') !== -1;
         var isBuyNow = e.submitter && e.submitter.name === 'buy-now';
         var formData = new FormData(form);
 
@@ -642,7 +642,7 @@
         });
     });
 
-    /* ---------- Product tabs (Beschreibung / Rezensionen) ---------- */
+    /* ---------- Product tabs (Descrizione / Recensioni) ---------- */
     document.addEventListener('click', function (e) {
         var tabLink = e.target.closest('.woocommerce-tabs .tabs > li > a, .woocommerce-tabs .tabs > li[role="tab"] > a');
         if (!tabLink) return;
@@ -669,7 +669,7 @@
         });
     });
 
-    /* ---------- Header search: Alle category picker + Kategorien menu ---------- */
+    /* ---------- Header search: Tutte category picker + Categorie menu ---------- */
     (function () {
         function closeSearchCategories(form) {
             if (!form) return;
@@ -690,7 +690,7 @@
             var input = form.querySelector('input.category-name');
             var text = form.querySelector('.header-search__categories-text');
             if (input) input.value = slug || '0';
-            if (text) text.textContent = label || 'Alle';
+            if (text) text.textContent = label || 'Tutte';
             qsa('.header-search__categories-container a', form).forEach(function (a) {
                 a.classList.toggle('active', a.dataset.slug === String(slug || '0'));
             });
@@ -765,7 +765,7 @@
             // Empty search + specific category → go straight to category page
             if (!term && slug && slug !== '0') {
                 e.preventDefault();
-                window.location.href = '/product-category/' + encodeURIComponent(slug) + '/';
+                window.location.href = '/categoria-prodotto/' + encodeURIComponent(slug) + '/';
             }
         });
     })();

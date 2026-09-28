@@ -10,7 +10,7 @@
         $logoSrc = $message->embed($logoPath);
     }
 @endphp
-<img src="{{ $logoSrc }}" width="180" height="48" class="logo" alt="Sr-pellethaus" style="width:180px;height:auto;border:0;display:block;">
+<img src="{{ $logoSrc }}" width="180" height="48" class="logo" alt="PelletCasa" style="width:180px;height:auto;border:0;display:block;">
 </a>
 </td>
 </tr>

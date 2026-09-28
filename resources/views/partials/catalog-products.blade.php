@@ -6,9 +6,9 @@
 </ul>
 @if($products->hasMorePages())
 <nav class="woocommerce-navigation woocommerce-navigation__catalog next-posts-navigation" data-catalog-pagination>
-	<a href="{{ $products->nextPageUrl() }}" class="nav-links motta-button motta-button--bg-color-black motta-button--large">Weitere Produkte laden</a>
+	<a href="{{ $products->nextPageUrl() }}" class="nav-links motta-button motta-button--bg-color-black motta-button--large">Carica altri prodotti</a>
 </nav>
 @endif
 @else
-<div class="woocommerce-info" data-catalog-empty>Es wurden keine Produkte gefunden, die deiner Auswahl entsprechen.</div>
+<div class="woocommerce-info" data-catalog-empty>Nessun prodotto trovato corrispondente alla tua selezione.</div>
 @endif

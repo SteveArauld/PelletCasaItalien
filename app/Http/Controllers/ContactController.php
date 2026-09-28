@@ -44,9 +44,9 @@ class ContactController extends Controller
 
             return back()
                 ->withInput()
-                ->withErrors(['email' => 'Die Nachricht konnte derzeit nicht gesendet werden. Bitte versuchen Sie es später erneut.']);
+                ->withErrors(['email' => 'Il messaggio non può essere inviato al momento. Riprova più tardi.']);
         }
 
-        return back()->with('success', 'Vielen Dank! Ihre Anfrage wurde übermittelt. Sie erhalten in Kürze eine Bestätigung per E-Mail.');
+        return back()->with('success', 'Grazie! La tua richiesta è stata inviata. Riceverai a breve una conferma via e-mail.');
     }
 }

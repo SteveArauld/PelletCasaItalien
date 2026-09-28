@@ -8,35 +8,35 @@
 
 	
 <!-- Suchmaschinen-Optimierung durch Rank Math PRO - https://rankmath.com/ -->
-<title>@yield('title', 'Sr-pellethaus')</title>
-<meta name="description" content="@yield('meta_description', 'Sr-pellethaus – Holzpellets, Brennholz, Holzbriketts und Pelletöfen.')"/>
+<title>@yield('title', 'PelletCasa')</title>
+<meta name="description" content="@yield('meta_description', 'PelletCasa – Pellet di legno, Legna da ardere, Bricchetti di legno und Pelletöfen.')"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="{{ url()->current() }}" />
 <meta property="og:locale" content="de_DE" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="@yield('title', 'Sr-pellethaus')" />
-<meta property="og:description" content="@yield('meta_description', 'Sr-pellethaus')" />
+<meta property="og:title" content="@yield('title', 'PelletCasa')" />
+<meta property="og:description" content="@yield('meta_description', 'PelletCasa')" />
 <meta property="og:url" content="{{ url()->current() }}" />
-<meta property="og:site_name" content="Sr-pellethaus" />
+<meta property="og:site_name" content="PelletCasa" />
 <meta property="og:updated_time" content="2026-08-22T12:46:41+02:00" />
 <meta property="article:published_time" content="2022-04-14T09:29:30+02:00" />
 <meta property="article:modified_time" content="2026-08-22T12:46:41+02:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="@yield('title', 'Sr-pellethaus')" />
-<meta name="twitter:description" content="@yield('meta_description', 'Sr-pellethaus')" />
+<meta name="twitter:title" content="@yield('title', 'PelletCasa')" />
+<meta name="twitter:description" content="@yield('meta_description', 'PelletCasa')" />
 <meta name="twitter:label1" content="Verfasst von" />
-<meta name="twitter:data1" content="sr-pellethaus" />
+<meta name="twitter:data1" content="pelletcasa" />
 <meta name="twitter:label2" content="Lesedauer" />
 <meta name="twitter:data2" content="3 Minuten" />
 <script type="application/ld+json" class="rank-math-schema">
 @verbatim
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"/#organization","name":"Sr-pellethaus","url":"","logo":{"@type":"ImageObject","@id":"/#logo","url":"{{ asset('images/logo.svg') }}","contentUrl":"{{ asset('images/logo.svg') }}","caption":"Sr-pellethaus","inLanguage":"de","width":"1200","height":"500"}},{"@type":"WebSite","@id":"/#website","url":"","name":"Sr-pellethaus","publisher":{"@id":"/#organization"},"inLanguage":"de","potentialAction":{"@type":"SearchAction","target":"/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg","url":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg","width":"200","height":"200","inLanguage":"de"},{"@type":"WebPage","@id":"/#webpage","url":"/","name":"Heim - Sr-pellethaus","datePublished":"2022-04-14T09:29:30+02:00","dateModified":"2026-08-22T12:46:41+02:00","about":{"@id":"/#organization"},"isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg"},"inLanguage":"de"},{"@type":"Person","@id":"/author/sr-pellethaus/","name":"sr-pellethaus","url":"/author/sr-pellethaus/","image":{"@type":"ImageObject","@id":"{{ asset('images/logo.svg') }}","url":"{{ asset('images/logo.svg') }}","caption":"sr-pellethaus","inLanguage":"de"},"sameAs":[""],"worksFor":{"@id":"/#organization"}},{"@type":"Article","headline":"Heim - Sr-pellethaus","datePublished":"2022-04-14T09:29:30+02:00","dateModified":"2026-08-22T12:46:41+02:00","author":{"@id":"/author/sr-pellethaus/","name":"sr-pellethaus"},"publisher":{"@id":"/#organization"},"description":"Pelletofen Pellet\u00f6fen online bestellen Jetzt einkaufen Entscheiden Sie sich f\u00fcr einen Pelletofen f\u00fcr konstante W\u00e4rme Jetzt einkaufen Pelletofen -24%MCZ Ego","name":"Heim - Sr-pellethaus","@id":"/#richSnippet","isPartOf":{"@id":"/#webpage"},"image":{"@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg"},"inLanguage":"de","mainEntityOfPage":{"@id":"/#webpage"}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"/#organization","name":"PelletCasa","url":"","logo":{"@type":"ImageObject","@id":"/#logo","url":"{{ asset('images/logo.svg') }}","contentUrl":"{{ asset('images/logo.svg') }}","caption":"PelletCasa","inLanguage":"it","width":"1200","height":"500"}},{"@type":"WebSite","@id":"/#website","url":"","name":"PelletCasa","publisher":{"@id":"/#organization"},"inLanguage":"it","potentialAction":{"@type":"SearchAction","target":"/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg","url":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg","width":"200","height":"200","inLanguage":"it"},{"@type":"WebPage","@id":"/#webpage","url":"/","name":"Home - PelletCasa","datePublished":"2022-04-14T09:29:30+02:00","dateModified":"2026-08-22T12:46:41+02:00","about":{"@id":"/#organization"},"isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg"},"inLanguage":"it"},{"@type":"Person","@id":"/author/pelletcasa/","name":"pelletcasa","url":"/author/pelletcasa/","image":{"@type":"ImageObject","@id":"{{ asset('images/logo.svg') }}","url":"{{ asset('images/logo.svg') }}","caption":"pelletcasa","inLanguage":"it"},"sameAs":[""],"worksFor":{"@id":"/#organization"}},{"@type":"Article","headline":"Home - PelletCasa","datePublished":"2022-04-14T09:29:30+02:00","dateModified":"2026-08-22T12:46:41+02:00","author":{"@id":"/author/pelletcasa/","name":"pelletcasa"},"publisher":{"@id":"/#organization"},"description":"Stufe a pellet online. Acquista ora. Scegli una stufa a pellet per un calore costante.","name":"Home - PelletCasa","@id":"/#richSnippet","isPartOf":{"@id":"/#webpage"},"image":{"@id":"/wp-content/uploads/2026/05/ID_189682_orig-300x300.jpg"},"inLanguage":"it","mainEntityOfPage":{"@id":"/#webpage"}}]}
 @endverbatim
 </script>
 <!-- /Rank Math WordPress SEO Plugin -->
 
-<link rel="alternate" type="application/rss+xml" title="Sr-pellethaus &raquo; Feed" href="/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Sr-pellethaus &raquo; Kommentar-Feed" href="/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PelletCasa &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PelletCasa &raquo; Kommentar-Feed" href="/comments/feed/" />
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
@@ -140,7 +140,7 @@ ul.products li.product .woocommerce-loop-product__title {height: 2.25rem;overflo
 @endverbatim
 </script>
 <script type="text/template" id="tmpl-unavailable-variation-template">
-	<p role="alert">Dieses Produkt ist leider nicht verfügbar. Bitte wähle eine andere Kombination.</p>
+	<p role="alert">Questo prodotto non è al momento disponibile. Seleziona un’altra combinazione.</p>
 </script>
 <script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
@@ -154,7 +154,7 @@ ul.products li.product .woocommerce-loop-product__title {height: 2.25rem;overflo
 function translateBuyNow() {
     document.querySelectorAll('.motta-buy-now-button').forEach(button => {
         if (button.textContent.trim() === 'Buy Now') {
-            button.textContent = 'Jetzt kaufen';
+            button.textContent = 'Acquista ora';
         }
     });
 }
@@ -174,13 +174,13 @@ document.addEventListener("DOMContentLoaded", function () {
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
 					background-image: none !important;
 				}
-				@media screen and (max-height: 1024px) {
+				@media screen e (max-height: 1024px) {
 					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
 					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
 						background-image: none !important;
 					}
 				}
-				@media screen and (max-height: 640px) {
+				@media screen e (max-height: 640px) {
 					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
 					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
 						background-image: none !important;
@@ -336,21 +336,21 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="header-hamburger hamburger-menu" data-toggle="off-canvas" data-target="hamburger-panel">
 	<span class="motta-svg-icon motta-svg-icon--hamburger hamburger__icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 27 32"><path d="M0 6.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 14.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 22.667h26.667v2.667h-26.667v-2.667z"></path></svg></span></div><div class="header-logo">
 	<a href="{{ route('home') }}">
-													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="Sr-pellethaus">
+													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="PelletCasa">
 						</a>
-		<h1 class="site-title"><a href="/" rel="home">Sr-pellethaus</a></h1>		</div>
+		<h1 class="site-title"><a href="/" rel="home">PelletCasa</a></h1>		</div>
 					</div>
 
 									
 					<div class="header-center-items header-items has-menu has-search">
 						<div class="header-category-menu header-category--text" >
 	<div class="header-category__title motta-button--text">
-		<span class="motta-svg-icon motta-svg-icon--select-arrow header-category__arrow" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span><span class="header-category__name">Kategorien</span>	</div>
+		<span class="motta-svg-icon motta-svg-icon--select-arrow header-category__arrow" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span><span class="header-category__name">Categorie</span>	</div>
 	<div class="header-category__content">
-		<nav class="header-category__menu"><ul id="menu-category-menu-home-3" class="menu"><li id="menu-item-21111" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21111"><a href="/product-category/holzpellets/" data-title="Holzpellets">Holzpellets</a></li>
-<li id="menu-item-21112" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21112"><a href="/product-category/brennholz/" data-title="Brennholz">Brennholz</a></li>
-<li id="menu-item-21113" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21113"><a href="/product-category/pelletofen/" data-title="Pelletofen">Pelletofen</a></li>
-<li id="menu-item-21468" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21468"><a href="/product-category/holzbriketts/" data-title="Holzbriketts">Holzbriketts</a></li>
+		<nav class="header-category__menu"><ul id="menu-category-menu-home-3" class="menu"><li id="menu-item-21111" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21111"><a href="/categoria-prodotto/pellet-di-legno/" data-title="Pellet di legno">Pellet di legno</a></li>
+<li id="menu-item-21112" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21112"><a href="/categoria-prodotto/legna-da-ardere/" data-title="Legna da ardere">Legna da ardere</a></li>
+<li id="menu-item-21113" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21113"><a href="/categoria-prodotto/stufe-a-pellet/" data-title="Stufe a pellet">Stufe a pellet</a></li>
+<li id="menu-item-21468" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21468"><a href="/categoria-prodotto/bricchetti-di-legno/" data-title="Bricchetti di legno">Bricchetti di legno</a></li>
 </ul></nav>	</div>
 </div>
 
@@ -362,39 +362,39 @@ document.addEventListener("DOMContentLoaded", function () {
 			$searchCat = '0';
 		}
 		$searchCatLabels = [
-			'brennholz' => 'Brennholz',
-			'holzbriketts' => 'Holzbriketts',
-			'holzpellets' => 'Holzpellets',
-			'pelletofen' => 'Pelletofen',
-			'0' => 'Alle',
+			'legna-da-ardere' => 'Legna da ardere',
+			'bricchetti-di-legno' => 'Bricchetti di legno',
+			'pellet-di-legno' => 'Pellet di legno',
+			'stufe-a-pellet' => 'Stufe a pellet',
+			'0' => 'Tutte',
 		];
 	@endphp
 	<form class="header-search__form" method="get" action="{{ route('shop') }}">
 		<div class="header-search__container motta-type--input-text">
 			<div class="header-search__categories-label" role="button" tabindex="0" aria-haspopup="listbox">
-				<span class="header-search__categories-text">{{ $searchCatLabels[$searchCat] ?? 'Alle' }}</span>
+				<span class="header-search__categories-text">{{ $searchCatLabels[$searchCat] ?? 'Tutte' }}</span>
 				<span class="motta-svg-icon motta-svg-icon--select-arrow"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span>
 			</div>
 			<input class="category-name" type="hidden" name="product_cat" value="{{ $searchCat }}">
 			<div class="header-search__divider"></div>
-			<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Suche nach beliebigen Produkten" autocomplete="off">
+			<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Cerca prodotti" autocomplete="off">
 			<div class="header-search__categories">
 				<div class="header-search__categories-title">
 					<span>Select Categories</span>
-					<span class="motta-svg-icon motta-svg-icon--close header-search__categories-close" role="button" tabindex="0" aria-label="Schließen"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
+					<span class="motta-svg-icon motta-svg-icon--close header-search__categories-close" role="button" tabindex="0" aria-label="Chiudi"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 				</div>
 				<ul class="header-search__categories-container" style="--mt-header-search-cats-rows: 3">
-					<li><a href="{{ route('category', 'brennholz') }}" data-slug="brennholz" class="{{ $searchCat === 'brennholz' ? 'active' : '' }}">Brennholz</a></li>
-					<li><a href="{{ route('category', 'holzbriketts') }}" data-slug="holzbriketts" class="{{ $searchCat === 'holzbriketts' ? 'active' : '' }}">Holzbriketts</a></li>
-					<li><a href="{{ route('category', 'holzpellets') }}" data-slug="holzpellets" class="{{ $searchCat === 'holzpellets' ? 'active' : '' }}">Holzpellets</a></li>
-					<li><a href="{{ route('category', 'pelletofen') }}" data-slug="pelletofen" class="{{ $searchCat === 'pelletofen' ? 'active' : '' }}">Pelletofen</a></li>
-					<li><a href="#" data-slug="0" class="{{ $searchCat === '0' ? 'active' : '' }}">Alle</a></li>
+					<li><a href="{{ route('category', 'legna-da-ardere') }}" data-slug="legna-da-ardere" class="{{ $searchCat === 'legna-da-ardere' ? 'active' : '' }}">Legna da ardere</a></li>
+					<li><a href="{{ route('category', 'bricchetti-di-legno') }}" data-slug="bricchetti-di-legno" class="{{ $searchCat === 'bricchetti-di-legno' ? 'active' : '' }}">Bricchetti di legno</a></li>
+					<li><a href="{{ route('category', 'pellet-di-legno') }}" data-slug="pellet-di-legno" class="{{ $searchCat === 'pellet-di-legno' ? 'active' : '' }}">Pellet di legno</a></li>
+					<li><a href="{{ route('category', 'stufe-a-pellet') }}" data-slug="stufe-a-pellet" class="{{ $searchCat === 'stufe-a-pellet' ? 'active' : '' }}">Stufe a pellet</a></li>
+					<li><a href="#" data-slug="0" class="{{ $searchCat === '0' ? 'active' : '' }}">Tutte</a></li>
 				</ul>
 			</div>
 			<span class="motta-svg-icon motta-svg-icon--close close-search-results"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 			<div class="header-search__results search-results woocommerce"></div>
 		</div>
-		<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Suchen">
+		<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Cerca">
 			<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--search"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.8 26.544l-5.44-5.44c1.392-1.872 2.24-4.192 2.24-6.704 0-6.176-5.024-11.2-11.2-11.2s-11.2 5.024-11.2 11.2 5.024 11.2 11.2 11.2c2.512 0 4.832-0.848 6.688-2.24l5.44 5.44 2.272-2.256zM6.4 14.4c0-4.416 3.584-8 8-8s8 3.584 8 8-3.584 8-8 8-8-3.584-8-8z"></path></svg></span></span>
 		</button>
 	</form>
@@ -406,19 +406,19 @@ document.addEventListener("DOMContentLoaded", function () {
 						<div class="header-account">
 	<a href="{{ route('account') }}" data-toggle=off-canvas data-target=account-panel class="motta-button  motta-button--text">
 				<span class="motta-button__text ">
-						<span class="motta-button__text--account">@auth{{ explode(' ', auth()->user()->name)[0] }}@else Sign in @endauth</span>
+						<span class="motta-button__text--account">@auth{{ explode(' ', auth()->user()->name)[0] }}@else Accedi @endauth</span>
 		</span>
 	</a>
 	</div><div class="header-wishlist">
 	<a href="{{ route('wishlist') }}" class="motta-button motta-button--icon motta-button--text">
 		<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-		<span class="motta-button__text screen-reader-text">Wunschliste</span>
+		<span class="motta-button__text screen-reader-text">Lista desideri</span>
 			</a>
 </div><div class="header-cart">
-	<a href="/cart/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text header-button-dropdown">
+	<a href="/carrello/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text header-button-dropdown">
 					<span class="motta-button__icon">
 				<span class="motta-svg-icon motta-svg-icon--cart-bag" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d = "M24 6.4h-1.616c-0.048-1.744-0.8-3.408-2.096-4.592-1.344-1.216-3.136-1.792-4.944-1.616-3.088 0.304-5.504 2.992-5.712 6.208h-1.632c-2.64 0-4.8 2.16-4.8 4.8v11.2c0 4.416 3.584 8 8 8h9.6c4.416 0 8-3.584 8-8v-11.2c0-2.64-2.16-4.8-4.8-4.8zM15.664 3.376c0.928-0.096 1.808 0.192 2.48 0.816 0.624 0.576 0.992 1.376 1.040 2.208h-6.352c0.192-1.584 1.36-2.88 2.832-3.024zM25.6 22.4c0 2.64-2.16 4.8-4.8 4.8h-9.6c-2.64 0-4.8-2.16-4.8-4.8v-11.2c0-0.88 0.72-1.6 1.6-1.6h16c0.88 0 1.6 0.72 1.6 1.6v11.2z"></path><path d = "M16 15.2c-1.76 0-3.2-1.44-3.2-3.2h-3.2c0 3.536 2.864 6.4 6.4 6.4s6.4-2.864 6.4-6.4h-3.2c0 1.76-1.44 3.2-3.2 3.2z"></path></svg></span>			</span>
-				<span class="motta-button__text screen-reader-text">Warenkorb</span>
+				<span class="motta-button__text screen-reader-text">Carrello</span>
 					<span class="header-counter header-cart__counter {{ ($cartCount ?? collect(session('cart', []))->sum()) > 0 ? '' : 'hidden' }}" data-cart-counter>{{ $cartCount ?? collect(session('cart', []))->sum() }}</span>
 			</a>
 	</div>					</div>
@@ -433,7 +433,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="header-hamburger hamburger-menu" data-toggle="off-canvas" data-target="hamburger-panel">
 	<span class="motta-svg-icon motta-svg-icon--hamburger hamburger__icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 27 32"><path d="M0 6.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 14.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 22.667h26.667v2.667h-26.667v-2.667z"></path></svg></span></div><div class="header-logo">
 	<a href="{{ route('home') }}">
-													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="Sr-pellethaus">
+													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="PelletCasa">
 						</a>
 	</div>
 					</div>
@@ -442,12 +442,12 @@ document.addEventListener("DOMContentLoaded", function () {
 					<div class="header-center-items header-items has-menu has-search">
 						<div class="header-category-menu header-category--text" >
 	<div class="header-category__title motta-button--text">
-		<span class="motta-svg-icon motta-svg-icon--select-arrow header-category__arrow" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span><span class="header-category__name">Kategorien</span>	</div>
+		<span class="motta-svg-icon motta-svg-icon--select-arrow header-category__arrow" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span><span class="header-category__name">Categorie</span>	</div>
 	<div class="header-category__content">
-		<nav class="header-category__menu"><ul id="menu-category-menu-home-4" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21111"><a href="/product-category/holzpellets/" data-title="Holzpellets">Holzpellets</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21112"><a href="/product-category/brennholz/" data-title="Brennholz">Brennholz</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21113"><a href="/product-category/pelletofen/" data-title="Pelletofen">Pelletofen</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21468"><a href="/product-category/holzbriketts/" data-title="Holzbriketts">Holzbriketts</a></li>
+		<nav class="header-category__menu"><ul id="menu-category-menu-home-4" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21111"><a href="/categoria-prodotto/pellet-di-legno/" data-title="Pellet di legno">Pellet di legno</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21112"><a href="/categoria-prodotto/legna-da-ardere/" data-title="Legna da ardere">Legna da ardere</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21113"><a href="/categoria-prodotto/stufe-a-pellet/" data-title="Stufe a pellet">Stufe a pellet</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21468"><a href="/categoria-prodotto/bricchetti-di-legno/" data-title="Bricchetti di legno">Bricchetti di legno</a></li>
 </ul></nav>	</div>
 </div>
 
@@ -459,39 +459,39 @@ document.addEventListener("DOMContentLoaded", function () {
 			$searchCat = '0';
 		}
 		$searchCatLabels = [
-			'brennholz' => 'Brennholz',
-			'holzbriketts' => 'Holzbriketts',
-			'holzpellets' => 'Holzpellets',
-			'pelletofen' => 'Pelletofen',
-			'0' => 'Alle',
+			'legna-da-ardere' => 'Legna da ardere',
+			'bricchetti-di-legno' => 'Bricchetti di legno',
+			'pellet-di-legno' => 'Pellet di legno',
+			'stufe-a-pellet' => 'Stufe a pellet',
+			'0' => 'Tutte',
 		];
 	@endphp
 	<form class="header-search__form" method="get" action="{{ route('shop') }}">
 		<div class="header-search__container motta-type--input-text">
 			<div class="header-search__categories-label" role="button" tabindex="0" aria-haspopup="listbox">
-				<span class="header-search__categories-text">{{ $searchCatLabels[$searchCat] ?? 'Alle' }}</span>
+				<span class="header-search__categories-text">{{ $searchCatLabels[$searchCat] ?? 'Tutte' }}</span>
 				<span class="motta-svg-icon motta-svg-icon--select-arrow"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 30.112l-15.072-15.040 4.544-4.544 10.528 10.56 10.528-10.56 4.544 4.544z"></path></svg></span>
 			</div>
 			<input class="category-name" type="hidden" name="product_cat" value="{{ $searchCat }}">
 			<div class="header-search__divider"></div>
-			<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Suche nach beliebigen Produkten" autocomplete="off">
+			<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Cerca prodotti" autocomplete="off">
 			<div class="header-search__categories">
 				<div class="header-search__categories-title">
 					<span>Select Categories</span>
-					<span class="motta-svg-icon motta-svg-icon--close header-search__categories-close" role="button" tabindex="0" aria-label="Schließen"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
+					<span class="motta-svg-icon motta-svg-icon--close header-search__categories-close" role="button" tabindex="0" aria-label="Chiudi"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 				</div>
 				<ul class="header-search__categories-container" style="--mt-header-search-cats-rows: 3">
-					<li><a href="{{ route('category', 'brennholz') }}" data-slug="brennholz" class="{{ $searchCat === 'brennholz' ? 'active' : '' }}">Brennholz</a></li>
-					<li><a href="{{ route('category', 'holzbriketts') }}" data-slug="holzbriketts" class="{{ $searchCat === 'holzbriketts' ? 'active' : '' }}">Holzbriketts</a></li>
-					<li><a href="{{ route('category', 'holzpellets') }}" data-slug="holzpellets" class="{{ $searchCat === 'holzpellets' ? 'active' : '' }}">Holzpellets</a></li>
-					<li><a href="{{ route('category', 'pelletofen') }}" data-slug="pelletofen" class="{{ $searchCat === 'pelletofen' ? 'active' : '' }}">Pelletofen</a></li>
-					<li><a href="#" data-slug="0" class="{{ $searchCat === '0' ? 'active' : '' }}">Alle</a></li>
+					<li><a href="{{ route('category', 'legna-da-ardere') }}" data-slug="legna-da-ardere" class="{{ $searchCat === 'legna-da-ardere' ? 'active' : '' }}">Legna da ardere</a></li>
+					<li><a href="{{ route('category', 'bricchetti-di-legno') }}" data-slug="bricchetti-di-legno" class="{{ $searchCat === 'bricchetti-di-legno' ? 'active' : '' }}">Bricchetti di legno</a></li>
+					<li><a href="{{ route('category', 'pellet-di-legno') }}" data-slug="pellet-di-legno" class="{{ $searchCat === 'pellet-di-legno' ? 'active' : '' }}">Pellet di legno</a></li>
+					<li><a href="{{ route('category', 'stufe-a-pellet') }}" data-slug="stufe-a-pellet" class="{{ $searchCat === 'stufe-a-pellet' ? 'active' : '' }}">Stufe a pellet</a></li>
+					<li><a href="#" data-slug="0" class="{{ $searchCat === '0' ? 'active' : '' }}">Tutte</a></li>
 				</ul>
 			</div>
 			<span class="motta-svg-icon motta-svg-icon--close close-search-results"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 			<div class="header-search__results search-results woocommerce"></div>
 		</div>
-		<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Suchen">
+		<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Cerca">
 			<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--search"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.8 26.544l-5.44-5.44c1.392-1.872 2.24-4.192 2.24-6.704 0-6.176-5.024-11.2-11.2-11.2s-11.2 5.024-11.2 11.2 5.024 11.2 11.2 11.2c2.512 0 4.832-0.848 6.688-2.24l5.44 5.44 2.272-2.256zM6.4 14.4c0-4.416 3.584-8 8-8s8 3.584 8 8-3.584 8-8 8-8-3.584-8-8z"></path></svg></span></span>
 		</button>
 	</form>
@@ -503,19 +503,19 @@ document.addEventListener("DOMContentLoaded", function () {
 						<div class="header-account">
 	<a href="{{ route('account') }}" data-toggle=off-canvas data-target=account-panel class="motta-button  motta-button--text">
 				<span class="motta-button__text ">
-						<span class="motta-button__text--account">@auth{{ explode(' ', auth()->user()->name)[0] }}@else Sign in @endauth</span>
+						<span class="motta-button__text--account">@auth{{ explode(' ', auth()->user()->name)[0] }}@else Accedi @endauth</span>
 		</span>
 	</a>
 	</div><div class="header-wishlist">
 	<a href="{{ route('wishlist') }}" class="motta-button motta-button--icon motta-button--text">
 		<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-		<span class="motta-button__text screen-reader-text">Wunschliste</span>
+		<span class="motta-button__text screen-reader-text">Lista desideri</span>
 			</a>
 </div><div class="header-cart">
-	<a href="/cart/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text header-button-dropdown">
+	<a href="/carrello/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text header-button-dropdown">
 					<span class="motta-button__icon">
 				<span class="motta-svg-icon motta-svg-icon--cart-bag" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d = "M24 6.4h-1.616c-0.048-1.744-0.8-3.408-2.096-4.592-1.344-1.216-3.136-1.792-4.944-1.616-3.088 0.304-5.504 2.992-5.712 6.208h-1.632c-2.64 0-4.8 2.16-4.8 4.8v11.2c0 4.416 3.584 8 8 8h9.6c4.416 0 8-3.584 8-8v-11.2c0-2.64-2.16-4.8-4.8-4.8zM15.664 3.376c0.928-0.096 1.808 0.192 2.48 0.816 0.624 0.576 0.992 1.376 1.040 2.208h-6.352c0.192-1.584 1.36-2.88 2.832-3.024zM25.6 22.4c0 2.64-2.16 4.8-4.8 4.8h-9.6c-2.64 0-4.8-2.16-4.8-4.8v-11.2c0-0.88 0.72-1.6 1.6-1.6h16c0.88 0 1.6 0.72 1.6 1.6v11.2z"></path><path d = "M16 15.2c-1.76 0-3.2-1.44-3.2-3.2h-3.2c0 3.536 2.864 6.4 6.4 6.4s6.4-2.864 6.4-6.4h-3.2c0 1.76-1.44 3.2-3.2 3.2z"></path></svg></span>			</span>
-				<span class="motta-button__text screen-reader-text">Warenkorb</span>
+				<span class="motta-button__text screen-reader-text">Carrello</span>
 					<span class="header-counter header-cart__counter {{ ($cartCount ?? collect(session('cart', []))->sum()) > 0 ? '' : 'hidden' }}" data-cart-counter>{{ $cartCount ?? collect(session('cart', []))->sum() }}</span>
 			</a>
 	</div>					</div>
@@ -530,7 +530,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="header-hamburger hamburger-menu" data-toggle="off-canvas" data-target="mobile-menu-panel">
 	<span class="motta-svg-icon motta-svg-icon--hamburger hamburger__icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 27 32"><path d="M0 6.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 14.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 22.667h26.667v2.667h-26.667v-2.667z"></path></svg></span></div><div class="header-logo">
 	<a href="{{ route('home') }}">
-													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="Sr-pellethaus">
+													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="PelletCasa">
 						</a>
 	</div>
 					</div>
@@ -543,10 +543,10 @@ document.addEventListener("DOMContentLoaded", function () {
 		<span class="motta-button__text  screen-reader-text"></span>
 			</a>
 </div><div class="header-cart">
-	<a href="/cart/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text">
+	<a href="/carrello/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text">
 					<span class="motta-button__icon">
 				<span class="motta-svg-icon motta-svg-icon--cart-bag" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d = "M24 6.4h-1.616c-0.048-1.744-0.8-3.408-2.096-4.592-1.344-1.216-3.136-1.792-4.944-1.616-3.088 0.304-5.504 2.992-5.712 6.208h-1.632c-2.64 0-4.8 2.16-4.8 4.8v11.2c0 4.416 3.584 8 8 8h9.6c4.416 0 8-3.584 8-8v-11.2c0-2.64-2.16-4.8-4.8-4.8zM15.664 3.376c0.928-0.096 1.808 0.192 2.48 0.816 0.624 0.576 0.992 1.376 1.040 2.208h-6.352c0.192-1.584 1.36-2.88 2.832-3.024zM25.6 22.4c0 2.64-2.16 4.8-4.8 4.8h-9.6c-2.64 0-4.8-2.16-4.8-4.8v-11.2c0-0.88 0.72-1.6 1.6-1.6h16c0.88 0 1.6 0.72 1.6 1.6v11.2z"></path><path d = "M16 15.2c-1.76 0-3.2-1.44-3.2-3.2h-3.2c0 3.536 2.864 6.4 6.4 6.4s6.4-2.864 6.4-6.4h-3.2c0 1.76-1.44 3.2-3.2 3.2z"></path></svg></span>			</span>
-				<span class="motta-button__text  screen-reader-text">Warenkorb</span>
+				<span class="motta-button__text  screen-reader-text">Carrello</span>
 					<span class="header-counter header-cart__counter {{ ($cartCount ?? collect(session('cart', []))->sum()) > 0 ? '' : 'hidden' }}" data-cart-counter>{{ $cartCount ?? collect(session('cart', []))->sum() }}</span>
 			</a>
 	</div>					</div>
@@ -561,10 +561,10 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="header-search header-search--form motta-skin--base header-search--outside header-search--simple">
 			<form class="header-search__form" method="get" action="{{ route('shop') }}">
 			<div class="header-search__container motta-type--input-text">
-<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Suche nach beliebigen Produkten" autocomplete="off">
+<input type="search" name="s" class="header-search__field" value="{{ request('s', request('search')) }}" placeholder="Cerca prodotti" autocomplete="off">
 				<span class="motta-svg-icon motta-svg-icon--close close-search-results"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span><div class="header-search__results search-results woocommerce"></div>
 			</div>
-<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Suchen">
+<button class="header-search__button motta-button motta-button--icon motta-button--base" type="submit" aria-label="Cerca">
 	<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--search"><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.8 26.544l-5.44-5.44c1.392-1.872 2.24-4.192 2.24-6.704 0-6.176-5.024-11.2-11.2-11.2s-11.2 5.024-11.2 11.2 5.024 11.2 11.2 11.2c2.512 0 4.832-0.848 6.688-2.24l5.44 5.44 2.272-2.256zM6.4 14.4c0-4.416 3.584-8 8-8s8 3.584 8 8-3.584 8-8 8-8-3.584-8-8z"></path></svg></span></span></button>
 		</form>
 	</div>
@@ -580,7 +580,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="header-hamburger hamburger-menu" data-toggle="off-canvas" data-target="mobile-menu-panel">
 	<span class="motta-svg-icon motta-svg-icon--hamburger hamburger__icon" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 27 32"><path d="M0 6.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 14.667h26.667v2.667h-26.667v-2.667z"></path><path d="M0 22.667h26.667v2.667h-26.667v-2.667z"></path></svg></span></div><div class="header-logo">
 	<a href="{{ route('home') }}">
-													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="Sr-pellethaus">
+													<img src="{{ asset('images/logo.svg') }}" class="logo-dark" alt="PelletCasa">
 						</a>
 	</div>
 					</div>
@@ -598,10 +598,10 @@ document.addEventListener("DOMContentLoaded", function () {
 		<span class="motta-button__text  screen-reader-text"></span>
 			</a>
 </div><div class="header-cart">
-	<a href="/cart/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text">
+	<a href="/carrello/" data-toggle="off-canvas" data-target="cart-panel" class="motta-button motta-button--icon motta-button--text">
 					<span class="motta-button__icon">
 				<span class="motta-svg-icon motta-svg-icon--cart-bag" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d = "M24 6.4h-1.616c-0.048-1.744-0.8-3.408-2.096-4.592-1.344-1.216-3.136-1.792-4.944-1.616-3.088 0.304-5.504 2.992-5.712 6.208h-1.632c-2.64 0-4.8 2.16-4.8 4.8v11.2c0 4.416 3.584 8 8 8h9.6c4.416 0 8-3.584 8-8v-11.2c0-2.64-2.16-4.8-4.8-4.8zM15.664 3.376c0.928-0.096 1.808 0.192 2.48 0.816 0.624 0.576 0.992 1.376 1.040 2.208h-6.352c0.192-1.584 1.36-2.88 2.832-3.024zM25.6 22.4c0 2.64-2.16 4.8-4.8 4.8h-9.6c-2.64 0-4.8-2.16-4.8-4.8v-11.2c0-0.88 0.72-1.6 1.6-1.6h16c0.88 0 1.6 0.72 1.6 1.6v11.2z"></path><path d = "M16 15.2c-1.76 0-3.2-1.44-3.2-3.2h-3.2c0 3.536 2.864 6.4 6.4 6.4s6.4-2.864 6.4-6.4h-3.2c0 1.76-1.44 3.2-3.2 3.2z"></path></svg></span>			</span>
-				<span class="motta-button__text  screen-reader-text">Warenkorb</span>
+				<span class="motta-button__text  screen-reader-text">Carrello</span>
 					<span class="header-counter header-cart__counter {{ ($cartCount ?? collect(session('cart', []))->sum()) > 0 ? '' : 'hidden' }}" data-cart-counter>{{ $cartCount ?? collect(session('cart', []))->sum() }}</span>
 			</a>
 	</div>					</div>
@@ -645,17 +645,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div>
             <span style="color:#000;font-weight:600;">E-Mail:</span>
-            kontakt@sr-pellethaus.de
+            contatto@pelletcasa.it
         </div>
 
         <div>
             <span style="font-weight:600;">Telefon:</span>
-            +49 8722 965 418
+            +39 02 8475 1932
         </div>
 
         <div>
             <span style="font-weight:600;">Adresse:</span>
-            Industriestraße 8, 84359 Simbach am Inn, Deutschland
+            Via Monte Napoleone 18, 20121 Milano, Italia
         </div>
 
     </div>
@@ -674,10 +674,10 @@ document.addEventListener("DOMContentLoaded", function () {
 						<div class="elementor-element elementor-element-2a2b0716 motta-navigation-menu--column elementor-widget elementor-widget-motta-navigation-menu" data-id="2a2b0716" data-element_type="widget" data-e-type="widget" data-settings="{&quot;toggle_menu_mobile&quot;:&quot;yes&quot;}" data-widget_type="motta-navigation-menu.default">
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
-				<div class="motta-navigation-menu__title">Unser Lager</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-know-us" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-21191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21191"><a href="/ueber-uns/" data-title="Über Uns">Über Uns</a></li>
-<li id="menu-item-21232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21232"><a href="/geschaeft/" data-title="Geschäft">Geschäft</a></li>
-<li id="menu-item-21233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21233"><a href="/kontaktieren-sie-uns/" data-title="Kontaktieren Sie uns">Kontaktieren Sie uns</a></li>
+				<div class="motta-navigation-menu__title">Il nostro magazzino</div>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-know-us" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-21191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21191"><a href="/chi-siamo/" data-title="Chi siamo">Chi siamo</a></li>
+<li id="menu-item-21232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21232"><a href="/negozio/" data-title="Negozio">Negozio</a></li>
+<li id="menu-item-21233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21233"><a href="/contattaci/" data-title="Contattaci">Contattaci</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -695,12 +695,12 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
 				<div class="motta-navigation-menu__title">Unsere Richtlinien</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-policy" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-21235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21235"><a href="/datenschutzerklaerung-2/" data-title="Datenschutzerklärung">Datenschutzerklärung</a></li>
-<li id="menu-item-21236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21236"><a href="/lieferung-und-versand/" data-title="Lieferung und Versand">Lieferung und Versand</a></li>
-<li id="menu-item-21237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21237"><a href="/rueckgabe-und-erstattung/" data-title="Rückgabe und Erstattung">Rückgabe und Erstattung</a></li>
-<li id="menu-item-21238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21238"><a href="/impressum/" data-title="Impressum">Impressum</a></li>
-<li id="menu-item-21239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21239"><a href="/zahlungsmethoden/" data-title="Zahlungsmethoden">Zahlungsmethoden</a></li>
-<li id="menu-item-21286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21286"><a href="/agb/" data-title="AGB">AGB</a></li>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-policy" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-21235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21235"><a href="/privacy/" data-title="Privacy">Privacy</a></li>
+<li id="menu-item-21236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21236"><a href="/spedizione-e-consegna/" data-title="Spedizione e consegna">Spedizione e consegna</a></li>
+<li id="menu-item-21237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21237"><a href="/resi-e-rimborsi/" data-title="Resi e rimborsi">Resi e rimborsi</a></li>
+<li id="menu-item-21238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21238"><a href="/note-legali/" data-title="Note legali">Note legali</a></li>
+<li id="menu-item-21239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21239"><a href="/metodi-di-pagamento/" data-title="Metodi di pagamento">Metodi di pagamento</a></li>
+<li id="menu-item-21286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21286"><a href="/termini-e-condizioni/" data-title="Termini e condizioni">Termini e condizioni</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -717,11 +717,11 @@ document.addEventListener("DOMContentLoaded", function () {
 						<div class="elementor-element elementor-element-61323206 motta-navigation-menu--column elementor-widget elementor-widget-motta-navigation-menu" data-id="61323206" data-element_type="widget" data-e-type="widget" data-settings="{&quot;toggle_menu_mobile&quot;:&quot;yes&quot;,&quot;toggle_menu&quot;:&quot;no&quot;,&quot;toggle_status&quot;:&quot;yes&quot;}" data-widget_type="motta-navigation-menu.default">
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
-				<div class="motta-navigation-menu__title">Mein Konto</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-orders-returns" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-6655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6655"><a href="#" data-title="Track Order">Track Order</a></li>
-<li id="menu-item-6656" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6656"><a href="#" data-title="Shipping &amp; Delivery">Shipping &#038; Delivery</a></li>
-<li id="menu-item-6657" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6657"><a href="#" data-title="Return &amp; Exchange">Return &#038; Exchange</a></li>
-<li id="menu-item-6658" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6658"><a href="#" data-title="Price Match Guarantee">Price Match Guarantee</a></li>
+				<div class="motta-navigation-menu__title">Il mio account</div>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-orders-returns" class="nav-menu motta-navigation-menu__menu"><li id="menu-item-6655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6655"><a href="/traccia-ordine/" data-title="Traccia ordine">Traccia ordine</a></li>
+<li id="menu-item-6656" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6656"><a href="#" data-title="Spedizione e consegna">Spedizione e consegna</a></li>
+<li id="menu-item-6657" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6657"><a href="/resi-e-rimborsi/" data-title="Resi e cambi">Resi e cambi</a></li>
+<li id="menu-item-6658" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6658"><a href="#" data-title="Garanzia prezzo">Garanzia sul prezzo</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -782,10 +782,10 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="elementor-element elementor-element-b14b656 motta-navigation-menu--column elementor-widget elementor-widget-motta-navigation-menu" data-id="b14b656" data-element_type="widget" data-e-type="widget" data-settings="{&quot;toggle_menu&quot;:&quot;yes&quot;,&quot;toggle_menu_mobile&quot;:&quot;yes&quot;,&quot;toggle_status_mobile&quot;:&quot;yes&quot;,&quot;toggle_status&quot;:&quot;yes&quot;}" data-widget_type="motta-navigation-menu.default">
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
-				<div class="motta-navigation-menu__title">Unser Lager</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-know-us-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21191"><a href="/ueber-uns/" data-title="Über Uns">Über Uns</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21232"><a href="/geschaeft/" data-title="Geschäft">Geschäft</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21233"><a href="/kontaktieren-sie-uns/" data-title="Kontaktieren Sie uns">Kontaktieren Sie uns</a></li>
+				<div class="motta-navigation-menu__title">Il nostro magazzino</div>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-know-us-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21191"><a href="/chi-siamo/" data-title="Chi siamo">Chi siamo</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21232"><a href="/negozio/" data-title="Negozio">Negozio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21233"><a href="/contattaci/" data-title="Contattaci">Contattaci</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -807,12 +807,12 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
 				<div class="motta-navigation-menu__title">Unsere Richtlinien</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-policy-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21235"><a href="/datenschutzerklaerung-2/" data-title="Datenschutzerklärung">Datenschutzerklärung</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21236"><a href="/lieferung-und-versand/" data-title="Lieferung und Versand">Lieferung und Versand</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21237"><a href="/rueckgabe-und-erstattung/" data-title="Rückgabe und Erstattung">Rückgabe und Erstattung</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21238"><a href="/impressum/" data-title="Impressum">Impressum</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21239"><a href="/zahlungsmethoden/" data-title="Zahlungsmethoden">Zahlungsmethoden</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21286"><a href="/agb/" data-title="AGB">AGB</a></li>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-policy-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21235"><a href="/privacy/" data-title="Privacy">Privacy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21236"><a href="/spedizione-e-consegna/" data-title="Spedizione e consegna">Spedizione e consegna</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21237"><a href="/resi-e-rimborsi/" data-title="Resi e rimborsi">Resi e rimborsi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21238"><a href="/note-legali/" data-title="Note legali">Note legali</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21239"><a href="/metodi-di-pagamento/" data-title="Metodi di pagamento">Metodi di pagamento</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21286"><a href="/termini-e-condizioni/" data-title="Termini e condizioni">Termini e condizioni</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -833,11 +833,11 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="elementor-element elementor-element-339bb943 motta-navigation-menu--column elementor-widget elementor-widget-motta-navigation-menu" data-id="339bb943" data-element_type="widget" data-e-type="widget" data-settings="{&quot;toggle_menu_mobile&quot;:&quot;yes&quot;,&quot;toggle_menu&quot;:&quot;yes&quot;}" data-widget_type="motta-navigation-menu.default">
 				<div class="elementor-widget-container">
 								<div class="motta-navigation-menu-element motta-navigation-menu__container--group">
-				<div class="motta-navigation-menu__title">Mein Konto</div>
-				<nav class="motta-navigation-menu"><ul id="menu-footer-orders-returns-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6655"><a href="#" data-title="Track Order">Track Order</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6656"><a href="#" data-title="Shipping &amp; Delivery">Shipping &#038; Delivery</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6657"><a href="#" data-title="Return &amp; Exchange">Return &#038; Exchange</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6658"><a href="#" data-title="Price Match Guarantee">Price Match Guarantee</a></li>
+				<div class="motta-navigation-menu__title">Il mio account</div>
+				<nav class="motta-navigation-menu"><ul id="menu-footer-orders-returns-1" class="nav-menu motta-navigation-menu__menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6655"><a href="/traccia-ordine/" data-title="Traccia ordine">Traccia ordine</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6656"><a href="#" data-title="Spedizione e consegna">Spedizione e consegna</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6657"><a href="#" data-title="Resi e cambi">Resi e cambi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6658"><a href="#" data-title="Garanzia sul prezzo">Garanzia sul prezzo</a></li>
 </ul></nav>			</div>
 						</div>
 				</div>
@@ -860,17 +860,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div>
             <span style="color:#000;font-weight:600;">E-Mail:</span>
-            kontakt@sr-pellethaus.de
+            contatto@pelletcasa.it
         </div>
 
         <div>
             <span style="font-weight:600;">Telefon:</span>
-            +49 8722 965 418
+            +39 02 8475 1932
         </div>
 
         <div>
             <span style="font-weight:600;">Adresse:</span>
-            Industriestraße 8, 84359 Simbach am Inn, Deutschland
+            Via Monte Napoleone 18, 20121 Milano, Italia
         </div>
 
     </div>
@@ -894,8 +894,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	<div class="modal__container">
 		<div class="modal__header">
 			<form class="search-modal__form" method="get" action="{{ route('shop') }}">
-				<input type="search" name="s" class="search-modal__field motta-input--medium  motta-input--raised" value="{{ request('s', request('search')) }}" placeholder="Suche nach beliebigen Produkten" autocomplete="off">
-				<button class="search-modal__submit mt-button__icon--subtle motta-button--text" type="submit" aria-label="Suchen"><span class="motta-svg-icon motta-svg-icon--search" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.8 26.544l-5.44-5.44c1.392-1.872 2.24-4.192 2.24-6.704 0-6.176-5.024-11.2-11.2-11.2s-11.2 5.024-11.2 11.2 5.024 11.2 11.2 11.2c2.512 0 4.832-0.848 6.688-2.24l5.44 5.44 2.272-2.256zM6.4 14.4c0-4.416 3.584-8 8-8s8 3.584 8 8-3.584 8-8 8-8-3.584-8-8z"></path></svg></span></button>
+				<input type="search" name="s" class="search-modal__field motta-input--medium  motta-input--raised" value="{{ request('s', request('search')) }}" placeholder="Cerca prodotti" autocomplete="off">
+				<button class="search-modal__submit mt-button__icon--subtle motta-button--text" type="submit" aria-label="Cerca"><span class="motta-svg-icon motta-svg-icon--search" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.8 26.544l-5.44-5.44c1.392-1.872 2.24-4.192 2.24-6.704 0-6.176-5.024-11.2-11.2-11.2s-11.2 5.024-11.2 11.2 5.024 11.2 11.2 11.2c2.512 0 4.832-0.848 6.688-2.24l5.44 5.44 2.272-2.256zM6.4 14.4c0-4.416 3.584-8 8-8s8 3.584 8 8-3.584 8-8 8-8-3.584-8-8z"></path></svg></span></button>
 				<span class="motta-svg-icon motta-svg-icon--close close-search-results" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span><div class="header-search__results search-results woocommerce"></div>
 			</form>
 		</div>
@@ -905,38 +905,38 @@ document.addEventListener("DOMContentLoaded", function () {
 		<button class="modal__button-close motta-button--text" type="submit"><span class="motta-svg-icon motta-svg-icon--close" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span> Close</button>
 	</div>
 </div>
-        <div id="motta-mobile-navigation-bar" class="motta-mobile-navigation-bar standard_adaptive">
+        <div id="motta-mobile-navigation-bar" class="motta-mobile-navigation-bar steard_adaptive">
 			
 <a href="/" class="motta-mobile-navigation-bar__icon home-icon">
 	<span class="motta-svg-icon motta-svg-icon--home" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M27.52 11.84l-9.6-7.2c-0.64-0.48-1.28-0.64-1.92-0.64s-1.28 0.16-1.92 0.64l-9.6 7.2c-0.8 0.64-1.28 1.6-1.28 2.56v11.2c0 1.76 1.44 3.2 3.2 3.2h19.2c1.76 0 3.2-1.44 3.2-3.2v-11.2c0-0.96-0.48-1.92-1.28-2.56zM25.6 25.6h-7.2v-4c0-1.28-1.12-2.4-2.4-2.4s-2.4 1.12-2.4 2.4v4h-7.2v-11.2l9.6-7.2 9.6 7.2v11.2z"></path></svg></span>	<em>Heim</em>
 </a>
-<a href="/geschaeft/" class="motta-mobile-navigation-bar__icon menu-icon">
-	<span class="motta-svg-icon motta-svg-icon--categories-v2" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8.8 6.4c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM8.8 3.2c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M23.2 6.4c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM23.2 3.2c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M8.8 20.8c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM8.8 17.6c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M23.2 20.8c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM23.2 17.6c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path></svg></span>	<em>Geschäft</em>
+<a href="/negozio/" class="motta-mobile-navigation-bar__icon menu-icon">
+	<span class="motta-svg-icon motta-svg-icon--categories-v2" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M8.8 6.4c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM8.8 3.2c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M23.2 6.4c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM23.2 3.2c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M8.8 20.8c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM8.8 17.6c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path><path d="M23.2 20.8c1.328 0 2.4 1.072 2.4 2.4s-1.072 2.4-2.4 2.4-2.4-1.072-2.4-2.4 1.072-2.4 2.4-2.4zM23.2 17.6c-3.088 0-5.6 2.512-5.6 5.6s2.512 5.6 5.6 5.6 5.6-2.512 5.6-5.6-2.512-5.6-5.6-5.6v0z"></path></svg></span>	<em>Negozio</em>
 </a>
 
-<a href="/cart/" class="motta-mobile-navigation-bar__icon cart-icon" data-toggle="off-canvas" data-target="cart-panel">
+<a href="/carrello/" class="motta-mobile-navigation-bar__icon cart-icon" data-toggle="off-canvas" data-target="cart-panel">
 	<span>
 		<span class="motta-svg-icon motta-svg-icon--cart-trolley" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M25.248 22.4l3.552-14.4h-18.528l-0.96-4.8h-6.112v3.2h3.488l3.2 16h15.36zM24.704 11.2l-1.968 8h-10.24l-1.6-8h13.808z"></path><path d="M25.6 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path><path d="M14.4 26.4c0 1.325-1.075 2.4-2.4 2.4s-2.4-1.075-2.4-2.4c0-1.325 1.075-2.4 2.4-2.4s2.4 1.075 2.4 2.4z"></path></svg></span>		<span class="counter cart-counter hidden">0</span>
 	</span>
-	<em>Warenkorb</em>
+	<em>Carrello</em>
 </a>
 
 <a href="{{ route('wishlist') }}" class="motta-mobile-navigation-bar__icon wishlist-icon">
 	<span>
 		<span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span>		<span class="counter wishlist-counter" data-wishlist-counter>{{ auth()->check() ? auth()->user()->favorites()->count() : 0 }}</span>
 	</span>
-	<em>Wunschliste</em>
+	<em>Lista desideri</em>
 </a>
 
 <a href="{{ route('account') }}" class="motta-mobile-navigation-bar__icon account-icon" data-toggle="off-canvas" data-target="account-panel">
-	<span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span>	<em> Konto</em>
+	<span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span>	<em> Account</em>
 </a>
         </div>
 		<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/motta-child/*","/wp-content/themes/motta/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+{"prefetch":[{"source":"document","where":{"e":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/motta-child/*","/wp-content/themes/motta/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 
-<script id='kirki-viewport-lists'>var kirkiViewports = {"md":{"value":1200,"scale":1,"minWidth":1200,"maxWidth":1200,"title":"Desktop","icon":"desktop","activeIcon":"desktop-hover","id":"md","type":"max"},"tablet":{"value":991,"scale":1,"minWidth":991,"maxWidth":991,"title":"Tablet","icon":"tablet-default","activeIcon":"tablet-hover","type":"max","id":"tablet"},"mobileLandscape":{"value":767,"scale":1,"minWidth":767,"maxWidth":767,"title":"Landscape","icon":"phone-hr-default","activeIcon":"phone-hr-hover","type":"max","id":"mobileLandscape"},"mobile":{"value":575,"scale":1,"minWidth":575,"maxWidth":575,"title":"Mobile","icon":"phone-vr-default","activeIcon":"phone-vr-hover","type":"max","id":"mobile"}};</script><script id='kirki-variable-lists'>var kirkiCSSVariable = {"data":[{"title":"Colors","key":"color","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Numbers","key":"size","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Text Styles","key":"text-style","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Font Family","key":"font-family","modes":[{"title":"Default","key":"default"}],"variables":[]}]};</script><script id="kirki-api-and-nonce">
+<script id='kirki-viewport-lists'>var kirkiViewports = {"md":{"value":1200,"scale":1,"minWidth":1200,"maxWidth":1200,"title":"Desktop","icon":"desktop","activeIcon":"desktop-hover","id":"md","type":"max"},"tablet":{"value":991,"scale":1,"minWidth":991,"maxWidth":991,"title":"Tablet","icon":"tablet-default","activeIcon":"tablet-hover","type":"max","id":"tablet"},"mobileLescape":{"value":767,"scale":1,"minWidth":767,"maxWidth":767,"title":"Lescape","icon":"phone-hr-default","activeIcon":"phone-hr-hover","type":"max","id":"mobileLescape"},"mobile":{"value":575,"scale":1,"minWidth":575,"maxWidth":575,"title":"Mobile","icon":"phone-vr-default","activeIcon":"phone-vr-hover","type":"max","id":"mobile"}};</script><script id='kirki-variable-lists'>var kirkiCSSVariable = {"data":[{"title":"Colors","key":"color","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Numbers","key":"size","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Text Styles","key":"text-style","modes":[{"title":"Default","key":"default"}],"variables":[]},{"title":"Font Family","key":"font-family","modes":[{"title":"Default","key":"default"}],"variables":[]}]};</script><script id="kirki-api-e-nonce">
     window.wp_kirki = {
         ajaxUrl: "/wp-admin/admin-ajax.php",
         restUrl: "/wp-json/",
@@ -999,25 +999,25 @@ document.addEventListener("DOMContentLoaded", function () {
 			</div>
 							<a href="{{ route('account') }}" class="motta-button  motta-button-text hamburger-panel__name">
 					<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span></span>
-					<span class="motta-button__text">@auth Hallo, {{ explode(' ', auth()->user()->name)[0] }} @else Hello, Sign in @endauth</span>
+					<span class="motta-button__text">@auth Hallo, {{ explode(' ', auth()->user()->name)[0] }} @else Ciao, Accedi @endauth</span>
 				</a>
 					</div>
 
 		<div class="panel__content ">
 			<div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="{{ route('wishlist') }}">
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-				<span class="motta-button__text">Wunschliste</span>
+				<span class="motta-button__text">Lista desideri</span>
 				
-			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/tracking-order/" >
+			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/traccia-ordine/" >
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--track-order" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M24.528 3.2h-17.056l-4.272 8.96v16.64h25.6v-16.64l-4.272-8.96zM24.8 11.2h-7.2v-4.8h4.912l2.288 4.8zM9.488 6.4h4.912v4.8h-7.2l2.288-4.8zM6.4 25.6v-11.2h8v3.2h3.2v-3.2h8v11.2h-19.2z"></path></svg></span></span>
-				<span class="motta-button__text">Bestellung verfolgen</span>
-			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/help-center/" >
+				<span class="motta-button__text">Traccia ordine</span>
+			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/centro-assistenza/" >
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--help-center" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 6.4c5.296 0 9.6 4.304 9.6 9.6s-4.304 9.6-9.6 9.6-9.6-4.304-9.6-9.6 4.304-9.6 9.6-9.6zM16 3.2c-7.072 0-12.8 5.728-12.8 12.8s5.728 12.8 12.8 12.8 12.8-5.728 12.8-12.8-5.728-12.8-12.8-12.8v0z"></path><path d="M14.8 18.16c-0.048-0.224-0.064-0.448-0.064-0.704 0-0.752 0.304-1.568 1.216-2.256l0.816-0.608c0.432-0.32 0.576-0.704 0.576-1.12 0-0.624-0.464-1.232-1.424-1.232-0.928 0-1.472 0.752-1.472 1.504 0 0.368 0.032 0.528 0.048 0.592l-2.24-0.080c-0.048-0.224-0.064-0.464-0.064-0.672 0-1.872 1.392-3.456 3.728-3.456 2.592 0 3.888 1.552 3.888 3.152 0 1.28-0.592 2.16-1.552 2.88l-0.608 0.448c-0.56 0.416-0.944 0.832-0.944 1.552h-1.904zM15.808 19.104c0.768 0 1.392 0.624 1.392 1.392 0 0.752-0.624 1.376-1.392 1.376s-1.376-0.624-1.376-1.376c0-0.768 0.608-1.392 1.376-1.392z"></path></svg></span></span>
-				<span class="motta-button__text">Help Center</span>
-			</a></div><hr class="mobile-menu__divider divider"><nav class="main-navigation primary-navigation"><ul id="menu-primary-menu" class="menu"><li id="menu-item-21043" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21043"><a href="/product-category/holzpellets/" data-title="Holzpellets">Holzpellets</a></li>
-<li id="menu-item-21044" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21044"><a href="/product-category/pelletofen/" data-title="Pelletofen">Pelletofen</a></li>
-<li id="menu-item-21100" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21100"><a href="/product-category/brennholz/" data-title="Brennholz">Brennholz</a></li>
-<li id="menu-item-21473" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21473"><a href="/product-category/holzbriketts/" data-title="Holzbriketts">Holzbriketts</a></li>
+				<span class="motta-button__text">Centro assistenza</span>
+			</a></div><hr class="mobile-menu__divider divider"><nav class="main-navigation primary-navigation"><ul id="menu-primary-menu" class="menu"><li id="menu-item-21043" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21043"><a href="/categoria-prodotto/pellet-di-legno/" data-title="Pellet di legno">Pellet di legno</a></li>
+<li id="menu-item-21044" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21044"><a href="/categoria-prodotto/stufe-a-pellet/" data-title="Stufe a pellet">Stufe a pellet</a></li>
+<li id="menu-item-21100" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21100"><a href="/categoria-prodotto/legna-da-ardere/" data-title="Legna da ardere">Legna da ardere</a></li>
+<li id="menu-item-21473" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21473"><a href="/categoria-prodotto/bricchetti-di-legno/" data-title="Bricchetti di legno">Bricchetti di legno</a></li>
 </ul></nav><nav class="preferences-menu">
 	<div class="preferences-menu__heading">Preferences</div>
 	<ul>
@@ -1032,26 +1032,26 @@ document.addEventListener("DOMContentLoaded", function () {
 		<span class="motta-svg-icon motta-svg-icon--close panel__button-close" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 		<div class="panel__header">
 							<div class="account-panel__avatar"><span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span></div>
-				<div class="account-panel__name">Konto</div>
+				<div class="account-panel__name">Account</div>
 					</div>
 
 		<div class="panel__content">
 			<ul class="account-panel__links"><li class="account-panel__link"><a class="motta-button  motta-button--text" href="{{ route('account') }}">
 							<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span></span>
-							<span class="motta-button__text">@auth Mein Konto @else Sign In @endauth</span>
+							<span class="motta-button__text">@auth Il mio account @else Accedi @endauth</span>
 						</a></li>@auth<li class="account-panel__link"><form method="POST" action="{{ route('logout') }}"><button type="submit" class="motta-button motta-button--text" style="width:100%;text-align:left;">
 							<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path></svg></span></span>
-							<span class="motta-button__text">Abmelden</span>
+							<span class="motta-button__text">Esci</span>
 						</button>@csrf</form></li>@endauth<li class="account-panel__link"><a class="motta-button  motta-button--text" href="{{ route('wishlist') }}">
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-				<span class="motta-button__text">Wunschliste</span>
+				<span class="motta-button__text">Lista desideri</span>
 				
-			</a></li><li class="account-panel__link"><a class="motta-button  motta-button--text" href="/tracking-order/" >
+			</a></li><li class="account-panel__link"><a class="motta-button  motta-button--text" href="/traccia-ordine/" >
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--track-order" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M24.528 3.2h-17.056l-4.272 8.96v16.64h25.6v-16.64l-4.272-8.96zM24.8 11.2h-7.2v-4.8h4.912l2.288 4.8zM9.488 6.4h4.912v4.8h-7.2l2.288-4.8zM6.4 25.6v-11.2h8v3.2h3.2v-3.2h8v11.2h-19.2z"></path></svg></span></span>
-				<span class="motta-button__text">Bestellung verfolgen</span>
-			</a></li><li class="account-panel__link"><a class="motta-button  motta-button--text" href="/help-center/" >
+				<span class="motta-button__text">Traccia ordine</span>
+			</a></li><li class="account-panel__link"><a class="motta-button  motta-button--text" href="/centro-assistenza/" >
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--help-center" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 6.4c5.296 0 9.6 4.304 9.6 9.6s-4.304 9.6-9.6 9.6-9.6-4.304-9.6-9.6 4.304-9.6 9.6-9.6zM16 3.2c-7.072 0-12.8 5.728-12.8 12.8s5.728 12.8 12.8 12.8 12.8-5.728 12.8-12.8-5.728-12.8-12.8-12.8v0z"></path><path d="M14.8 18.16c-0.048-0.224-0.064-0.448-0.064-0.704 0-0.752 0.304-1.568 1.216-2.256l0.816-0.608c0.432-0.32 0.576-0.704 0.576-1.12 0-0.624-0.464-1.232-1.424-1.232-0.928 0-1.472 0.752-1.472 1.504 0 0.368 0.032 0.528 0.048 0.592l-2.24-0.080c-0.048-0.224-0.064-0.464-0.064-0.672 0-1.872 1.392-3.456 3.728-3.456 2.592 0 3.888 1.552 3.888 3.152 0 1.28-0.592 2.16-1.552 2.88l-0.608 0.448c-0.56 0.416-0.944 0.832-0.944 1.552h-1.904zM15.808 19.104c0.768 0 1.392 0.624 1.392 1.392 0 0.752-0.624 1.376-1.392 1.376s-1.376-0.624-1.376-1.376c0-0.768 0.608-1.392 1.376-1.392z"></path></svg></span></span>
-				<span class="motta-button__text">Help Center</span>
+				<span class="motta-button__text">Centro assistenza</span>
 			</a></li></ul>		</div>
 	</div>
 </div>
@@ -1060,7 +1060,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	<div class="panel__container">
 		<span class="motta-svg-icon motta-svg-icon--close panel__button-close" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M28.336 5.936l-2.272-2.272-10.064 10.080-10.064-10.080-2.272 2.272 10.080 10.064-10.080 10.064 2.272 2.272 10.064-10.080 10.064 10.080 2.272-2.272-10.080-10.064z"></path></svg></span>
 		<div class="panel__header">
-			Warenkorb <span class="cart-panel__counter" data-cart-counter-paren>({{ $cartCount = collect(session('cart', []))->sum() }})</span>
+			Carrello <span class="cart-panel__counter" data-cart-counter-paren>({{ $cartCount = collect(session('cart', []))->sum() }})</span>
 		</div>
 
 		<div class="panel__content motta-skin--subtle motta-qty-medium">
@@ -1085,22 +1085,22 @@ document.addEventListener("DOMContentLoaded", function () {
 			</div>
 							<a href="{{ route('account') }}" class="motta-button  motta-button-text hamburger-panel__name">
 					<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--account" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M16 16c-4.064 0-6.4-2.336-6.4-6.4 0-3.536 2.864-6.4 6.4-6.4s6.4 2.864 6.4 6.4c0 4-2.4 6.4-6.4 6.4zM16 6.4c-1.76 0-3.2 1.44-3.2 3.2 0 2.272 0.928 3.2 3.2 3.2 2.24 0 3.2-0.96 3.2-3.2 0-1.76-1.44-3.2-3.2-3.2z"></path><path d="M27.2 28.8h-22.4v-3.2c0-4.416 3.584-8 8-8h6.4c4.416 0 8 3.584 8 8v3.2zM8 25.6h16c0-2.64-2.16-4.8-4.8-4.8h-6.4c-2.64 0-4.8 2.16-4.8 4.8z"></path></svg></span></span>
-					<span class="motta-button__text">@auth Hallo, {{ explode(' ', auth()->user()->name)[0] }} @else Hello, Sign in @endauth</span>
+					<span class="motta-button__text">@auth Hallo, {{ explode(' ', auth()->user()->name)[0] }} @else Ciao, Accedi @endauth</span>
 				</a>
 					</div>
 
 		<div class="panel__content open-submenus-icon">
 			<div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="{{ route('wishlist') }}">
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--wishlist" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M22.736 6.4v0c1.792 0 3.44 1.12 4.128 2.768 0.8 1.92 0.112 4.144-1.856 6.112l-9.024 8.992-9.024-8.976c-1.984-1.984-2.64-4.144-1.824-6.080 0.688-1.68 2.352-2.8 4.144-2.8 1.504 0 3.040 0.752 4.448 2.16l2.256 2.256 2.256-2.256c1.44-1.424 2.992-2.176 4.496-2.176zM22.736 3.2c-2.176 0-4.544 0.912-6.752 3.104-2.192-2.176-4.544-3.088-6.704-3.088-6.368 0-11.040 7.904-4.576 14.336l11.28 11.248 11.28-11.248c6.496-6.448 1.856-14.352-4.528-14.352v0z"></path></svg></span></span>
-				<span class="motta-button__text">Wunschliste</span>
+				<span class="motta-button__text">Lista desideri</span>
 				
-			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/tracking-order/" >
+			</a></div><div class="hamburger-panel__item"><a class="motta-button  motta-button--text" href="/traccia-ordine/" >
 				<span class="motta-button__icon"><span class="motta-svg-icon motta-svg-icon--track-order" ><svg width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 32 32"><path d="M24.528 3.2h-17.056l-4.272 8.96v16.64h25.6v-16.64l-4.272-8.96zM24.8 11.2h-7.2v-4.8h4.912l2.288 4.8zM9.488 6.4h4.912v4.8h-7.2l2.288-4.8zM6.4 25.6v-11.2h8v3.2h3.2v-3.2h8v11.2h-19.2z"></path></svg></span></span>
-				<span class="motta-button__text">Bestellung verfolgen</span>
-			</a></div><hr class="mobile-menu__divider divider"><nav class="main-navigation primary-navigation"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21043"><a href="/product-category/holzpellets/" data-title="Holzpellets">Holzpellets</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21044"><a href="/product-category/pelletofen/" data-title="Pelletofen">Pelletofen</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21100"><a href="/product-category/brennholz/" data-title="Brennholz">Brennholz</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21473"><a href="/product-category/holzbriketts/" data-title="Holzbriketts">Holzbriketts</a></li>
+				<span class="motta-button__text">Traccia ordine</span>
+			</a></div><hr class="mobile-menu__divider divider"><nav class="main-navigation primary-navigation"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21043"><a href="/categoria-prodotto/pellet-di-legno/" data-title="Pellet di legno">Pellet di legno</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21044"><a href="/categoria-prodotto/stufe-a-pellet/" data-title="Stufe a pellet">Stufe a pellet</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21100"><a href="/categoria-prodotto/legna-da-ardere/" data-title="Legna da ardere">Legna da ardere</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21473"><a href="/categoria-prodotto/bricchetti-di-legno/" data-title="Bricchetti di legno">Bricchetti di legno</a></li>
 </ul></nav>		</div>
 	</div>
 </div>		<div id="wcboost-products-compare-popup" class="wcboost-products-compare-popup" aria-hidden="true">
@@ -1153,7 +1153,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
 	localeData[""].domain = domain;
 	wp.i18n.setLocaleData( localeData, domain );
-} )( "contact-form-7", {"translation-revision-date":"2026-06-28 19:30:34+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"This contact form is placed in the wrong place.":["Dieses Kontaktformular wurde an der falschen Stelle platziert."],"Error:":["Fehler:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+} )( "contact-form-7", {"translation-revision-date":"2026-06-28 19:30:34+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"This contact form is placed in the wrong place.":["Questo modulo di contatto è stato inserito nel posto sbagliato."],"Error:":["Errore:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
 //# sourceURL=contact-form-7-js-translations
 </script>
 <script id="contact-form-7-js-before">
@@ -1177,7 +1177,7 @@ jQuery.uiBackCompat = true;
 </script>
 <script id="jquery-ui-core-js" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen","a11yCarouselPrevSlideMessage":"Vorheriger Slide","a11yCarouselNextSlideMessage":"N\u00e4chster Slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobil Hochformat","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobil Querformat","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Hochformat","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Querformat","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"e_pro_free_trial_popup":true,"nested-elements":true,"e_atomic_elements":true,"atomic_widgets_should_enforce_capabilities":true,"editor_mcp":true,"e_bc_migrations":true,"e_editor_design_system_panel":true,"e_classes":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_variables_manager":true,"e_opt_in_v4_page":true,"e_opt_in_v4":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"\/wp-admin\/admin-ajax.php","uploadUrl":"\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"c178adb315","atomicFormsSendForm":"a746aff70d"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":4442,"title":"Heim%20-%20Sr-pellethaus","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen","a11yCarouselPrevSlideMessage":"Vorheriger Slide","a11yCarouselNextSlideMessage":"N\u00e4chster Slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobil Hochformat","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobil Querformat","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Hochformat","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Querformat","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"e_pro_free_trial_popup":true,"nested-elements":true,"e_atomic_elements":true,"atomic_widgets_should_enforce_capabilities":true,"editor_mcp":true,"e_bc_migrations":true,"e_editor_design_system_panel":true,"e_classes":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_variables_manager":true,"e_opt_in_v4_page":true,"e_opt_in_v4":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"\/wp-admin\/admin-ajax.php","uploadUrl":"\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"c178adb315","atomicFormsSendForm":"a746aff70d"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":4442,"title":"Heim%20-%20PelletCasa","excerpt":"","featuredImage":false}};
 //# sourceURL=elementor-frontend-js-before
 </script>
 <script id="elementor-frontend-js" src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1"></script>
@@ -1187,7 +1187,7 @@ var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce"
 //# sourceURL=elementor-pro-frontend-js-before
 </script>
 <script id="elementor-pro-frontend-js" src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.27.3"></script>
-<script id="pro-elements-handlers-js" src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.27.3"></script>
+<script id="pro-elements-helers-js" src="/wp-content/plugins/elementor-pro/assets/js/elements-helers.min.js?ver=3.27.3"></script>
 <script id="regenerator-runtime-js" src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.1"></script>
 <script id="motta-elementor-widgets-js" src="/wp-content/plugins/motta-addons/assets/js/elementor-widgets.js?ver=1.5.3"></script>
 

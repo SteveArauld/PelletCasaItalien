@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $page['title'].' - Sr-pellethaus')
+@section('title', $page['title'].' - PelletCasa')
 @section('body_class', 'page-template-default page theme-motta no-sidebar elementor-default elementor-kit-8 elementor-page')
 
 @section('content')

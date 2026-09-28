@@ -42,13 +42,13 @@ class AuthController extends Controller
 
         if (! Auth::attempt($credentials, $request->boolean('remember'))) {
             throw ValidationException::withMessages([
-                'email' => 'Diese Zugangsdaten sind ungültig.',
+                'email' => 'Queste credenziali non sono valide.',
             ]);
         }
 
         $request->session()->regenerate();
 
-        return redirect()->intended(route('account'))->with('success', 'Willkommen zurück!');
+        return redirect()->intended(route('account'))->with('success', 'Bentornato!');
     }
 
     public function showRegister(): View|RedirectResponse
@@ -77,7 +77,7 @@ class AuthController extends Controller
         Auth::login($user);
         $request->session()->regenerate();
 
-        return redirect()->route('account')->with('success', 'Ihr Konto wurde erstellt.');
+        return redirect()->route('account')->with('success', 'Il tuo account è stato creato.');
     }
 
     public function logout(Request $request): RedirectResponse
