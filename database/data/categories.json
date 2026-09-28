@@ -1,0 +1,30 @@
+[
+  {
+    "id": 420,
+    "name": "Brennholz",
+    "slug": "brennholz",
+    "description": "",
+    "image": "wp-content/uploads/2026/05/slider-zermatt-pellets-2.jpg"
+  },
+  {
+    "id": 421,
+    "name": "Holzbriketts",
+    "slug": "holzbriketts",
+    "description": "",
+    "image": "wp-content/uploads/2026/05/slider-zermatt-pellets-2.jpg"
+  },
+  {
+    "id": 415,
+    "name": "Holzpellets",
+    "slug": "holzpellets",
+    "description": "",
+    "image": "wp-content/uploads/2026/05/slider-zermatt-pellets-2.jpg"
+  },
+  {
+    "id": 419,
+    "name": "Pelletofen",
+    "slug": "pelletofen",
+    "description": "",
+    "image": "wp-content/uploads/2026/05/slider-zermatt-pellets-2.jpg"
+  }
+]
